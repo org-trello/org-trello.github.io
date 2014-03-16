@@ -19,9 +19,7 @@ Add this to your emacs configuration file.
 
 ``` lisp
 (require 'package)
-
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages"))
 (package-initialize)
 ```
 
@@ -33,22 +31,19 @@ Add this to your emacs configuration file.
 
 ``` lisp
 (require 'package)
-
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
-
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages"))
 (package-initialize)
 ```
 
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
 *Note*
-Melpa and Marmalade repositories package the same org-trello code.
+Melpa and Marmalade repositories provide the same org-trello code.
 The divergence comes from the org-trello dependencies which are not the same versions.
-The most stable may be Marmalade (Melpa build is automatic and completely depends on how the developer define its recipes).
 
 ### Github
 
-Download org-trello from GitHub
+Clone org-trello from GitHub
 
 ```sh
 git clone http://github.com/org-trello/org-trello.git
