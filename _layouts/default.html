@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- <\!-- syntax highlighting CSS -\-> -->
+        <!-- <link rel="stylesheet" href="/stylesheets/syntax.css"> -->
+
+        <!-- <\!-- Custom CSS -\-> -->
+        <link rel="stylesheet" href="/stylesheets/main.css">
+
+        <!-- <script src="js/bootstrap.min.js" type="text/javascript" /> -->
+
+        <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+
+    </head>
+    <body>
+          <div style="margin-top:10px">
+            <a href="/rationale.html">Rationale</a>
+            <a href="/demo.html">Demo</a>
+            <a href="/installation.html">Install</a>
+            <a href="/emacs-setup.html">Emacs-setup</a>
+            <a href="/trello-setup.html">Trello-setup</a>
+            <a href="/bindings.html">Bindings</a>
+            <a href="/usage.html">Usage</a>
+            <a href="/contributions.html">Contributions</a>
+            <a href="/versions.html">Emacs-versions</a>
+            <a href="/issues.html">Issues</a>
+            <a href="/web-admin.html">Web-admin</a>
+            <a href="/release-notes.html">Release-notes</a>
+          </div>
+        <div class="site">
+          <!-- <div class="header"> -->
+          <!--   <h1 class="title"><a href="/">{{ site.name }}</a></h1> -->
+          <!--   <a class="extra" href="/">home</a> -->
+          <!-- </div> -->
+          <div class="header">
+            <h2>{{ site.name }} :: org-mode <-> trello</h2>
+
+            <section id="downloads">
+              <a href="https://github.com/ardumont/org-trello/zipball/master" class="btn">Download as .zip</a>
+              <a href="https://github.com/ardumont/org-trello/tarball/master" class="btn">Download as .tar.gz</a>
+              <a href="https://github.com/ardumont/org-trello" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            </section>
+          </div>
+
+          {{ content }}
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                {:github  <a href="https://github.com/ardumont">@ardumont</a><br />
+                 :twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
