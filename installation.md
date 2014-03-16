@@ -56,7 +56,7 @@ The most stable may be Marmalade (Melpa build is automatic and completely depend
 Download org-trello from GitHub
 
 ```sh
-git clone http://github.com/ardumont/org-trello.git
+git clone http://github.com/org-trello/org-trello.git
 ```
 
 Add the org-trello directory to your load path and then add

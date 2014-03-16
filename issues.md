@@ -4,7 +4,7 @@ title:  "Issues"
 date:   2014-03-16 11:01:52
 ---
 
-To centralize informations and help everyone, please, open issues on the [github tracker](https://github.com/ardumont/org-trello/issues?state=open) with:
+To centralize informations and help everyone, please, open issues on the [github tracker](https://github.com/org-trello/org-trello/issues?state=open) with:
 
 - emacs version
 - org-trello version

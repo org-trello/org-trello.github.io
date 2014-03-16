@@ -27,7 +27,7 @@ Now you are ready to use org-mode as usual.
 ### Formats
 
 [Natural org checkboxes](http://orgmode.org/manual/Checkboxes.html).
-Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/ardumont/org-trello/issues/14).
+Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14).
 
 ```
 - [-] LISP

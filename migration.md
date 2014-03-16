@@ -8,7 +8,7 @@ date:   2014-03-16 11:01:52
 
 ## 0.3.1
 
-The old checklist/item format has been removed - https://github.com/ardumont/org-trello/issues/105.
+The old checklist/item format has been removed - https://github.com/org-trello/org-trello/issues/105.
 Now the org checkbox way is the standard one.
 
 ## 0.2.9

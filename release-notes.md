@@ -6,24 +6,24 @@ date:   2014-03-16 11:01:52
 
 # 0.3.5
 
-- Test multiple emacs version - https://github.com/ardumont/org-trello/issues/52
+- Test multiple emacs version - https://github.com/org-trello/org-trello/issues/52
 - Version
 - Update documentation note for the package view
 - Release note
 
 # 0.3.4
 
-- PR fix typo in readme - https://github.com/ardumont/org-trello/pull/120
+- PR fix typo in readme - https://github.com/org-trello/org-trello/pull/120
 - Fix webadmin button to delete running action
 - Add version emacs 24.3.50 in documentation
-- Improve computation level for checkbox (checklist/items) - https://github.com/ardumont/org-trello/issues/121#issuecomment-37559929
+- Improve computation level for checkbox (checklist/items) - https://github.com/org-trello/org-trello/issues/121#issuecomment-37559929
 - Improve documentation
 - Upgrade version
 - Release notes
 
 # 0.3.3
 
-- Issue when installing on melpa reported wrongly on melpa and reported back https://github.com/ardumont/org-trello/issues/117
+- Issue when installing on melpa reported wrongly on melpa and reported back https://github.com/org-trello/org-trello/issues/117
 - Fix typo when-let in -when-let
 - Remove org as a dependency, the plugins org- do not seem to declare it + problem in dependency
 - Upgrade to dash 2.5.0
@@ -43,13 +43,13 @@ date:   2014-03-16 11:01:52
 - Use standard remapping to override the org-end-of-line routine - https://www.gnu.org/software/emacs/manual/html_node/elisp/Remapping-Commands.html
 - Clean some dead code
 - Use standard mode map definition for the org-trello bindings
-- Fix description extract - https://github.com/ardumont/org-trello/issues/114
+- Fix description extract - https://github.com/org-trello/org-trello/issues/114
 - Version
 - Release notes
 
 # 0.3.1.1
 
-- Installation failure - https://github.com/ardumont/org-trello/issues/112
+- Installation failure - https://github.com/org-trello/org-trello/issues/112
 - Version
 - Release notes
 
@@ -59,7 +59,7 @@ date:   2014-03-16 11:01:52
 - Version
 - Avoid duplication in declaring the org-trello version
 - Add the important information about emacs 24.3+ (org-trello is only supported from this version range)
-- Clean the code regarding the old checklist/item entities (with stars) - https://github.com/ardumont/org-trello/issues/105
+- Clean the code regarding the old checklist/item entities (with stars) - https://github.com/org-trello/org-trello/issues/105
 - Sometimes, multiple cards are created more than once. Improve the proxy policy regarding this - Unable to reproduce so do nothing.
 - Release notes
 
@@ -80,7 +80,7 @@ date:   2014-03-16 11:01:52
 # 0.2.9
 
 - Remove org-trello.el at the root of the code (as the package generates this file and the test load without it, no longer needs to be gitted)
-- Invisible checkbox identifier - https://github.com/ardumont/org-trello/issues/98
+- Invisible checkbox identifier - https://github.com/org-trello/org-trello/issues/98
 - Fix sync from trello which loses the state of the checkboxes
 - Fix tests break since org-trello.el has been destroyed and simplify the testing
 - Overload the C-e mapping to go at the end of the line for the org-trello mode
@@ -102,7 +102,7 @@ date:   2014-03-16 11:01:52
 # 0.2.8
 
 - Backlog
-- Synchronize description - https://github.com/ardumont/org-trello/issues/80
+- Synchronize description - https://github.com/org-trello/org-trello/issues/80
 - Use --reduce-from from dash instead of cl-reduce to reduce the cl deps
 - Version
 - Update doc
@@ -113,22 +113,22 @@ date:   2014-03-16 11:01:52
 - Backlog
 - Create TODO template for the backlog start
 - Clean obsolete files (org-trello.org is no longer maintained, TODO-tests.org is no longer used)
-- Retry to split into `namespace` files - https://github.com/ardumont/org-trello/issues/93
+- Retry to split into `namespace` files - https://github.com/org-trello/org-trello/issues/93
   - Split into `namespace` files
   - Ensure packaging is generated and ok for marmalade
   - Ensure packaging is generated and ok for melpa - yes, ensure that the root `org-trello.el` is generated before pushing on master.
   - Ensure the tests are still ok
-- README-dev - https://github.com/ardumont/org-trello/issues/99
-- Rewrite the abstraction around fetched results to unify the `data model` (in and out identical) - https://github.com/ardumont/org-trello/issues/100
+- README-dev - https://github.com/org-trello/org-trello/issues/99
+- Rewrite the abstraction around fetched results to unify the `data model` (in and out identical) - https://github.com/org-trello/org-trello/issues/100
 - Unify the terms around users-assigned (org-trello) and members (trello)
 - Split the last org-trello namespace into 2 (`controller` for the orchestration function call triggered by interactive commands and `org-trello` for the interactive commands)
-- Unfold every entries before triggering the sync from trello to avoid problems similar as https://github.com/ardumont/org-trello/issues/53
+- Unfold every entries before triggering the sync from trello to avoid problems similar as https://github.com/org-trello/org-trello/issues/53
 - Version
 - Release notes
 
 # 0.2.6
 
-- Jump to card - https://github.com/ardumont/org-trello/issues/88
+- Jump to card - https://github.com/org-trello/org-trello/issues/88
 - Rewrite convention for the "goto board" action into "jump to board"
 - Update README.md
 - Version
@@ -137,10 +137,10 @@ date:   2014-03-16 11:01:52
 # 0.2.5
 
 - Backlog updates
-- Global properties in upper case - https://github.com/ardumont/org-trello/issues/83
-- Hide the global properties - https://github.com/ardumont/org-trello/issues/77
-- Use of checkbox convention - https://github.com/ardumont/org-trello/issues/78
-- Jumping from emacs to the current trello board - https://github.com/ardumont/org-trello/issues/76
+- Global properties in upper case - https://github.com/org-trello/org-trello/issues/83
+- Hide the global properties - https://github.com/org-trello/org-trello/issues/77
+- Use of checkbox convention - https://github.com/org-trello/org-trello/issues/78
+- Jumping from emacs to the current trello board - https://github.com/org-trello/org-trello/issues/76
 - Simplify the update of the help menu to avoid possible desynchronisation with code
 - Update documentation + TOC
 - Version
@@ -151,7 +151,7 @@ date:   2014-03-16 11:01:52
 - Sprint backlog
 - Some refactoring + tests coverage
 - Fix sync-from-trello - Merge org card's users assigned list and the trello one
-- Fix sync-from-trello - if new entities are referenced but not yet sync'ed on trello, they will disappear from the buffer when sync-from-trello (they should not) - https://github.com/ardumont/org-trello/issues/71
+- Fix sync-from-trello - if new entities are referenced but not yet sync'ed on trello, they will disappear from the buffer when sync-from-trello (they should not) - https://github.com/org-trello/org-trello/issues/71
   - Compute the entities without sync'ed properties
   - Write them silly at the end of the computation of the sync'ed data (trello and org merge) to the org buffer
 - Upgrade version
@@ -160,8 +160,8 @@ date:   2014-03-16 11:01:52
 # 0.2.3
 
 - Version
-- Fix discrepancy between docstring and binding to delete the setup - https://github.com/ardumont/org-trello/issues/74
-- Use a prefix binding which does not override the emacs's default user prefix (keep the original for the moment to avoid disturbing people which already use it) - https://github.com/ardumont/org-trello/issues/72
+- Fix discrepancy between docstring and binding to delete the setup - https://github.com/org-trello/org-trello/issues/74
+- Use a prefix binding which does not override the emacs's default user prefix (keep the original for the moment to avoid disturbing people which already use it) - https://github.com/org-trello/org-trello/issues/72
 - Update documentation about the possibility to change the default prefix key
 - Fix ci-travis build due to change in cask installation command
 - Release notes
@@ -170,7 +170,7 @@ date:   2014-03-16 11:01:52
 
 - Version
 - Improve abstraction around data from trello (not complete yet)
-- Show people assigned to card - https://github.com/ardumont/org-trello/issues/67
+- Show people assigned to card - https://github.com/org-trello/org-trello/issues/67
   - Compute user properties part from the board's informations
   - Install board setup routine (C-c o I) also install board users
   - Create board routine (C-c o i) should also install user boards (only the current user should then appear)
@@ -202,7 +202,7 @@ date:   2014-03-16 11:01:52
 
 - Version
 - Improve sync from trello - In case of new item/checklist, the entry will be added at the end of the buffer instead of its rightful place.
-- Problem regarding some function on windows system - https://github.com/ardumont/org-trello/issues/62
+- Problem regarding some function on windows system - https://github.com/org-trello/org-trello/issues/62
 - Release notes
 
 # 0.2.0
@@ -233,7 +233,7 @@ date:   2014-03-16 11:01:52
   - Better display for the delete buttons.
   - Use css for the play/pause entities
 - Ensure checks before sync request to the proxy.
-- Fix sync full entity (related to map-checkbox) - https://github.com/ardumont/org-trello/issues/53
+- Fix sync full entity (related to map-checkbox) - https://github.com/org-trello/org-trello/issues/53
 - Improve the justify policy once and for all (this blinks at the moment!)
 - Version
 - Fix problem with archive/unarchive file routine
@@ -246,8 +246,8 @@ date:   2014-03-16 11:01:52
 
 # 0.1.7.1
 
-- Fix problem requiring cl-lib - https://github.com/ardumont/org-trello/issues/51
-- Fix error on when-let - https://github.com/ardumont/org-trello/issues/54
+- Fix problem requiring cl-lib - https://github.com/org-trello/org-trello/issues/51
+- Fix error on when-let - https://github.com/org-trello/org-trello/issues/54
 - Version
 - release notes
 
@@ -255,7 +255,7 @@ date:   2014-03-16 11:01:52
 
 - webadmin: Add an action button on action to stop it
 - webadmin: Add an action button to stop every running actions on entities
-- URLencode/Protect the data from the query before executing the query - https://github.com/ardumont/org-trello/issues/46
+- URLencode/Protect the data from the query before executing the query - https://github.com/org-trello/org-trello/issues/46
 - Some refactoring about:
   - Docstring position (same level as function definition, this way, when toggling sexp, we see the docstring too)
   - Simplification of cond statement
@@ -300,7 +300,7 @@ date:   2014-03-16 11:01:52
 
 # 0.1.4
 
-- Prepare the hierarchy files to avoid problem like https://github.com/ardumont/org-trello/issues/37#issuecomment-23151353
+- Prepare the hierarchy files to avoid problem like https://github.com/org-trello/org-trello/issues/37#issuecomment-23151353
 - Adding a version interactive command (it will help for asking people the version they use).
 - Upgrade version
 - Refactoring - simplify code
@@ -372,7 +372,7 @@ date:   2014-03-16 11:01:52
 
 # 0.1.0
 
-- Fix importing of cards with due date - https://github.com/ardumont/org-trello/pull/22
+- Fix importing of cards with due date - https://github.com/org-trello/org-trello/pull/22
 - Migrate carton to card.el (travis-ci builds break because of this)
 - Order of creation of list (from keywords) in trello does not match the order of the keyword
 - Abstract away the query (:method, :uri, ...) implementation
@@ -400,8 +400,8 @@ date:   2014-03-16 11:01:52
 - Fix the cl-lib dependency
 - Improve the message when an action is done to let the user know when the action is done!
 - Better saving buffer policy
-- Sync org DEADLINE with trello card due - https://github.com/ardumont/org-trello/issues/17
-- Done, Todo on "check lists" - Once the user sets a "check list" to DONE or TODO, then check or uncheck all the tasks it contains. - https://github.com/ardumont/org-trello/issues/16
+- Sync org DEADLINE with trello card due - https://github.com/org-trello/org-trello/issues/17
+- Done, Todo on "check lists" - Once the user sets a "check list" to DONE or TODO, then check or uncheck all the tasks it contains. - https://github.com/org-trello/org-trello/issues/16
 - A simple and parametrable setup to make the user choose to use the checklist system or not
 - Upgrade version
 - Release notes
