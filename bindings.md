@@ -23,3 +23,5 @@ Keybindings        | Interactive commands                                  | Des
 <kbd>C-c o j</kbd> | <kbd>M-x org-trello/jump-to-card</kbd>                | Jump to current trello card
 <kbd>C-c o J</kbd> | <kbd>M-x org-trello/jump-to-trello-board</kbd>        | Jump to current trello board
 <kbd>C-c o h</kbd> | <kbd>M-x org-trello/help-describing-bindings</kbd>    | This help message.
+
+*Note* You can [override the default prefix key](/emacs-setup.html) (`C-c o`).
