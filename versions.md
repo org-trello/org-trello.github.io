@@ -4,23 +4,27 @@ title:  "Emacs Versions"
 date:   2014-03-16 11:01:52
 ---
 
-### Emacs version tested
+Tested manually on:
 
-Tested on:
+Version   | OS                           | Status
+----------|------------------------------|---------
+24.3.1    | Linux Mint 14                | OK
+24.3.1    | Linux Mint 15 (ubuntu based) | OK
+24.3.1    | Ubuntu 13.04                 | OK
+24.3.1    | Ubuntu 13.10                 | OK
+24.3.50.1 | Linux Mint 16 (debian based) | OK
 
-- GNU Emacs 24.3.1 (x86_64-pc-linux-gnu, X toolkit, Xaw3d scroll bars) of 2013-04-14 on marid, modified by Debian (from 0.1.0)
-- GNU Emacs 24.3.1 (x86_64-pc-linux-gnu, GTK+ Version 3.6.0) of 2014-01-03 on chindi02, modified by Debian
-- GNU Emacs 24.3.50.1 (x86_64-unknown-linux-gnu, GTK+ Version 2.24.22) of 2014-03-08 on dagobah
 
-### CI
+The Continuous Integration (CI) is able to test, compile and install org-trello with the following emacs versions:
 
-The continuous integration is able to test, compile and install org-trello with the following emacs versions:
 
-- 24.1
-- 24.2
-- 24.3
+Version | CI | Manual
+--------|----|--------
+24.1    | OK | X
+24.2    | OK | X
+24.3.1  | OK | OK
+24.3.50 | OK | OK
 
-But I:
-
-- do not have time to ensure that org-trello works with versions inferior to 24.3.
-- did not had any feedback from users reporting emacs versions different than the one tested
+*Note*
+org-trello was not tested with versions inferior to 24.3.
+Any feedback regarding those versions is welcome.
