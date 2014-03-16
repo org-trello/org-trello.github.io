@@ -4,8 +4,7 @@ title:  "Emacs Versions"
 date:   2014-03-16 11:01:52
 ---
 
-Tested manually on:
-
+### Manual tests
 
 Version   | OS                           | Status
 ----------|------------------------------|---------
@@ -16,8 +15,9 @@ Version   | OS                           | Status
 24.3.50.1 | Linux Mint 16 (debian based) | OK
 
 
-The Continuous Integration (CI) is able to test, compile and install org-trello:
+### Continuous Integration
 
+The CI tests and installs:
 
 Version | CI | Manual Test
 --------|----|--------
