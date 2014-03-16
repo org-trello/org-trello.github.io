@@ -100,88 +100,103 @@ You can use [org-mode's deadline](http://orgmode.org/manual/Inserting-deadline_0
 
 #### Creation of a full entity
 
-You can sync all the entities and their arborescence once.
+You can sync the full entity and its arborescence.
+
 Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o C</kbd>.
+
+When on:
+- a card, this will sync the card, then the checklists then any items of each checklist.
+- a checklist, this will sync the checklist then the items.
+- an item, will only sync the item
 
 #### Sync org-mode file to trello board
 
-You can sync all your org-mode file to trello.
+All entities from the org buffer will be created or updated to the trello board.
 Hit <kbd>C-c o s</kbd>.
 
 #### Sync org-mode file from trello board
 
-You can sync the content of your trello board into an org-mode file.
+All entities from the org buffer will be synced with the trello board content.
 Hit <kbd>C-c o S</kbd>.
 
 This will update any entries that were already present in the org-mode file and create any entries that were not created yet.
 
 #### Remove entity
 
-You can remove any entity and its arborescence from the board with <kbd>C-c o k</kbd>.
-This will also remove the entry from the org-mode buffer.
+The current entity and its arborescence will be removed.
+Hit <kbd>C-c o k</kbd>.
+
+*Note* This will also remove the entry from the org-mode buffer.
 
 #### Remove entities
 
-You can remove all entities from the board <kbd>C-c o K</kbd>.
-This will also remove the entries from the org-mode buffer.
+Remove all entities from the trello board and the org buffer.
+Hit <kbd>C-c o K</kbd>.
 
 #### Cleanup org-trello setup
 
-You can remove all data from the org-mode buffer with <kbd>C-c o x</kbd>.
-This will remove any org-trello related entries in your file (headers included).
+Remove only org-trello data from the org-mode buffer.
+Hit <kbd>C-c o x</kbd>.
+
+*Note* This will also remove header metadata file.
 
 #### Jump to trello board
 
-When inside your org-trello buffer (not on metadata), hit <kbd>C-c o j</kbd> and this will open your browser to the current trello board that your org-trello buffer is connected to.
+Jump to the trello board the org buffer is connected to.
+Hit <kbd>C-c o j</kbd>.
+
+*Note* This will use your default browser
 
 #### Jump to trello card
 
-When inside your org-trello buffer, somewhere inside a card, hit <kbd>C-c o j</kbd> and this will open your browser to the current trello card.
+Jump to the card in the trello board the org buffer is connected to.
+Hit <kbd>C-c o j</kbd>.
+
+*Note* This will use your default browser
 
 ### Errors
 
-Here are the possible error messages you can get if trying to sync in bad conditions:
+Here is the following possible error messages org-trello can send you:
 
 - without setting up the consumer-key and the access-token:
 
-         - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello/install-board-and-lists-ids
+    > - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello/install-board-and-lists-ids
 
 - without setting up the org-mode buffer:
 
-         - Setup problem.
-        Either you did not connect your org-mode buffer with a trello board, to correct this:
-          * attach to a board through C-c o I or M-x org-trello/install-board-and-lists-ids
-          * or create a board from scratch with C-c o b or M-x org-trello/create-board).
-        Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
-        For this, connect to trello and rename your board's list according to your org-mode's todo list.
-        Also, you can specify on your org-mode buffer the todo list you want to work with, for example: #+TODO: TODO DOING | DONE FAIL (hit C-c C-c to refresh the setup)
+    > - Setup problem.
+    > Either you did not connect your org-mode buffer with a trello board, to correct this:
+    >   * attach to a board through C-c o I or M-x org-trello/install-board-and-lists-ids
+    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board).
+    > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
+    > For this, connect to trello and rename your board's list according to your org-mode's todo list.
 
 - If the board's list names are different from your org-mode's keyword list:
 
-         - Setup problem.
-        Either you did not connect your org-mode buffer with a trello board, to correct this:
-          * attach to a board through C-c o I or M-x org-trello/install-board-and-lists-ids
-          * or create a board from scratch with C-c o b or M-x org-trello/create-board).
-        Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
-        For this, connect to trello and rename your board's list according to your org-mode's todo list.
-        Also, you can specify on your org-mode buffer the todo list you want to work with, for example: #+TODO: TODO DOING | DONE FAIL (hit C-c C-c to refresh the setup)
+    > - Setup problem.
+    > Either you did not connect your org-mode buffer with a trello board, to correct this:
+    >   * attach to a board through C-c o I or M-x org-trello/install-board-and-lists-ids
+    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board).
+    > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
+    > For this, connect to trello and rename your board's list according to your org-mode's todo list.
+    > Also, you can specify on your org-mode buffer the todo list you want to work with, for example: #+TODO: TODO DOING | DONE FAIL (hit C-c C-c to refresh the setup)
 
 - no label on the card:
 
-        Cannot synchronize the card - missing mandatory label. Skip it...
+    > Cannot synchronize the card - missing mandatory label. Skip it...
 
 - no label on the checklist:
 
-        Cannot synchronize the checklist - missing mandatory label. Skip it...
+    > Cannot synchronize the checklist - missing mandatory label. Skip it...
 
 - no label on the item:
 
-        Cannot synchronize the item - missing mandatory label. Skip it...
+    > Cannot synchronize the item - missing mandatory label. Skip it...
 
 - syncing the checklist without syncing the card first:
 
-        Cannot synchronize the checklist - the card must synchronized first. Skip it...
+    > Cannot synchronize the checklist - the card must synchronized first. Skip it...
 
 - syncing the item without syncing the checklist first:
 
-        Cannot synchronize the item - the checklist must be synchronized first. Skip it...
+    > Cannot synchronize the item - the checklist must be synchronized first. Skip it...
