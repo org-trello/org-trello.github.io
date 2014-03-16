@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installation"
+title:  "Install"
 date:   2014-03-16 11:01:52
 ---
 
