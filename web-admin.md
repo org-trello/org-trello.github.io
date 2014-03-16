@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "web-admin"
+title:  "Web-admin"
 date:   2014-03-16 11:01:52
 ---
 
