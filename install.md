@@ -4,18 +4,18 @@ title:  "Install"
 date:   2014-03-16 11:01:52
 ---
 
-Add this somewhere in your load file (`~/.emacs` or `~/.emacs.d/init.el`).
+Add this in your emacs configuration file (`~/.emacs` or `~/.emacs.d/init.el`).
 
 ``` lisp
 (require 'org-trello)
-;; to have org-trello activated for all org file, uncomment this
+;; to have org-trello activated for each org file, uncomment this
 ;; (add-hook 'org-mode-hook 'org-trello-mode)
 ;; otherwise, M-x org-trello-mode
 ```
 
 ### Marmalade (recommended)
 
-Add this to your emacs's init file (~/.emacs, ~/.emacs.d/init.el, or *scratch*, or whatnot...)
+Add this to your emacs configuration file.
 
 ``` lisp
 (require 'package)
@@ -29,12 +29,12 @@ Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
 ### Melpa - ~snapshot
 
-Add this to your emacs's init file (~/.emacs, ~/.emacs.d/init.el, or *scratch*, or whatnot...)
+Add this to your emacs configuration file.
 
 ``` lisp
 (require 'package)
 
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 
 (package-initialize)
 ```
