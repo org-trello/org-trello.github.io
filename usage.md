@@ -29,7 +29,7 @@ Now you are ready to use org-mode as usual.
 [Natural org checkboxes](http://orgmode.org/manual/Checkboxes.html).
 Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14).
 
-```
+```clj
 - [-] LISP
   - [X] Emacs-Lisp
   - [X] Common-Lisp
@@ -47,7 +47,7 @@ Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://git
 
 For example, once synced to trello, this looks like:
 
-```
+```clj
 * IN-PROGRESS Joy of FUN(ctional) LANGUAGES
 :PROPERTIES:
 :orgtrello-id: 521dc9f3edeabee47600401e
