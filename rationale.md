@@ -12,4 +12,4 @@ To organize oneself:
 
 Everybody wins!
 
-Org-trello is a minor mode for org buffer to synchronize with trello board and back.
+Org-trello, org minor mode for buffer to sync with trello and back.
