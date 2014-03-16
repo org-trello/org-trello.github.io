@@ -26,6 +26,5 @@ Version | CI | Manual Test
 24.3.1  | OK | OK
 24.3.50 | OK | OK
 
-*Note*
-org-trello was not tested with versions inferior to 24.3.
-Any feedback regarding those versions is welcome.
+
+*Note* Any feedback regarding the untested versions is welcome.
