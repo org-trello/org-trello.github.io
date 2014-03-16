@@ -4,7 +4,6 @@ title:  "Install"
 date:   2014-03-16 11:01:52
 ---
 
-Org-trello is a minor mode for org-mode to sync.
 Add this somewhere in your load file (`~/.emacs` or `~/.emacs.d/init.el`).
 
 ``` lisp

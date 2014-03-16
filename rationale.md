@@ -11,3 +11,5 @@ To organize oneself:
 - [org-trello](https://github.com/org-trello/org-trello) is the middle ground!
 
 Everybody wins!
+
+Org-trello is a minor mode for org buffer to synchronize with trello board and back.
