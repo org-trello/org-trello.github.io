@@ -4,10 +4,6 @@ title:  "Installation"
 date:   2014-03-16 11:01:52
 ---
 
-The Marmalade installation is the one recommended.
-
-### Install
-
 Org-trello is a minor mode for org-mode to sync.
 Add this somewhere in your load file (`~/.emacs` or `~/.emacs.d/init.el`).
 
@@ -18,7 +14,7 @@ Add this somewhere in your load file (`~/.emacs` or `~/.emacs.d/init.el`).
 ;; otherwise, M-x org-trello-mode
 ```
 
-### Marmalade - Stable version
+### Marmalade (recommended)
 
 Add this to your emacs's init file (~/.emacs, ~/.emacs.d/init.el, or *scratch*, or whatnot...)
 
