@@ -231,6 +231,11 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
+a:visited {
+    color: green;
+    text-shadow: none;
+}
+
 /* Clearfix */
 
 .cf:before, .cf:after {
