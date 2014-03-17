@@ -145,6 +145,7 @@ ul li:before {
 
 ul.nav li:before {
   content: "";
+  margin: 0;
 }
 
 blockquote {
