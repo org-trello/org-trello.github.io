@@ -12,4 +12,4 @@ To organize oneself:
 
 Everybody wins!
 
-Org-trello, org minor mode for buffer to sync with trello and back.
+Org-trello, org minor mode to sync with trello and back.
