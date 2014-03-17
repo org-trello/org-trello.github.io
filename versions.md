@@ -15,7 +15,7 @@ Version   | OS                           | Status
 24.3.50.1 | Linux Mint 16 (debian based) | OK
 
 
-### Continuous Integration
+### Continuous Integration <a href="https://travis-ci.org/org-trello/org-trello"><img src="https://travis-ci.org/org-trello/org-trello.png?branch=master" alt="Build Status"></a>
 
 The CI tests and installs:
 
