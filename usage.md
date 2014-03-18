@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Usages"
+title:  "Usage"
 date:   2014-03-16 11:01:52
 ---
 
