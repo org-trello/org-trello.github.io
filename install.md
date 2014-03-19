@@ -13,7 +13,11 @@ Add this in your emacs configuration file (`~/.emacs` or `~/.emacs.d/init.el`).
 ;; otherwise, M-x org-trello-mode
 ```
 
-### Marmalade (recommended)
+### Sources
+
+If not already configured, you need to prepare emacs to work with marmalade or melpa.
+
+#### Marmalade (recommended)
 
 Add this to your emacs configuration file.
 
@@ -25,7 +29,7 @@ Add this to your emacs configuration file.
 
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
-### Melpa - ~snapshot
+#### Melpa - ~snapshot
 
 Add this to your emacs configuration file.
 
@@ -41,7 +45,15 @@ Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 Melpa and Marmalade repositories provide the same org-trello code.
 The divergence comes from the org-trello dependencies which are not the same versions.
 
-### Github
+### Install
+
+Use standard emacs installation:
+
+`M-x package-install org-trello RET`
+
+### Alternative
+
+You can directly retrieve org-trello from github.
 
 Clone org-trello from GitHub
 
