@@ -3,6 +3,8 @@ layout: default
 title: org-trello
 ---
 
+<div style="padding-top:20%" />
+
 Org-trello is an [emacs](https://www.gnu.org/software/emacs/) [minor mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Minor-Modes.html) to extend [org-mode](http://orgmode.org/) with [Trello](http://trello.com/) abilities.
 
 ### Rationale
