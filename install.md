@@ -4,14 +4,7 @@ title:  "Install"
 date:   2014-03-16 11:01:52
 ---
 
-Add this in your emacs configuration file (`~/.emacs` or `~/.emacs.d/init.el`).
-
-``` lisp
-(require 'org-trello)
-;; to have org-trello activated for each org file, uncomment this
-;; (add-hook 'org-mode-hook 'org-trello-mode)
-;; otherwise, M-x org-trello-mode
-```
+To install `org-trello` in your emacs, you need a few steps.
 
 ### Sources
 
@@ -29,7 +22,7 @@ Add this to your emacs configuration file.
 
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
-#### Melpa - ~snapshot
+#### Melpa (~snapshot)
 
 Add this to your emacs configuration file.
 
@@ -50,6 +43,17 @@ The divergence comes from the org-trello dependencies which are not the same ver
 Use standard emacs installation:
 
 `M-x package-install org-trello RET`
+
+### Load org-trello
+
+Add this in your emacs configuration file (`~/.emacs` or `~/.emacs.d/init.el`).
+
+``` lisp
+(require 'org-trello)
+;; to have org-trello activated for each org file, uncomment this
+;; (add-hook 'org-mode-hook 'org-trello-mode)
+;; otherwise, M-x org-trello-mode
+```
 
 ### Alternative
 
