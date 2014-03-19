@@ -4,32 +4,28 @@ title:  "Usage"
 date:   2014-03-16 11:01:52
 ---
 
-### Setup
+This section will show:
 
-1. open an org-mode file
+- the format
+- an org-trello sample buffer
+- the use cases
+- the potential errors you can encounter
 
-2. Install the key and the token file (<kbd>C-c o i</kbd> or <kbd>M-x org-trello/install-key-and-token</kbd>).
-This will open your browser to retrieve the needed information (`consumer-key` then the `access-token`) and wait for your input in emacs.
+### Format
 
-    *Remark:* This only needs to be done once, until you revoke the token.
+There are 3 levels (cf. next section sample)
 
-3. Setup your org-mode file with your trello board (<kbd>C-c o I</kbd> or <kbd>M-x org-trello/install-board-and-lists-ids</kbd>).
-This will present you with a list of your actual boards. Select the one you want and hit enter.
-This will edit your org-mode file to add the properties needed.
+- level 1 - Card
+- level 2 - Checklist
+- level 3 - Item
 
-    *Remarks:*
-
-  - This needs to be done once for each org-mode file you want to sync with a trello board.
-  - You can directly create a board (<kbd>C-c o b</kbd> or <kbd>M-x orgtrello/do-create-board-and-lists</kbd>)
-
-Now you are ready to use org-mode as usual.
-
-### Formats
+### Sample
 
 [Natural org checkboxes](http://orgmode.org/manual/Checkboxes.html).
 Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14).
 
 ```clj
+* IN-PROGRESS Joy of FUN(ctional) LANGUAGES
 - [-] LISP
   - [X] Emacs-Lisp
   - [X] Common-Lisp
@@ -66,13 +62,7 @@ For example, once synced to trello, this looks like:
 
 *Note* In org-trello buffer, the :PROPERTIES: for the checklists/items won't be visible for the user.
 
-### Creation step-by-step
-
-Basically, you have 3 levels (cf. [possible formats](#formats))
-
-- level 1 - Card
-- level 2 - Checklist
-- level 3 - Item
+### Use cases
 
 Steps:
 
