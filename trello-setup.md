@@ -11,7 +11,7 @@ First, ensure that the web browser that emacs is configured to use is started, a
 
 <kbd>C-c o i</kbd> or <kbd>M-x org-trello/install-key-and-token</kbd>
 
-### Sync your org-mode buffer
+### Connect org-mode buffer to board
 
 For each org-mode file, you need to connect your org-mode file with a trello board.
 
