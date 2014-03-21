@@ -1,6 +1,6 @@
 ---
 layout: default
-title: org-trello
+title: "org-trello"
 ---
 
 <div style="text-align:center;margin-bottom:10px"><img style="width:30%" src="/images/org-mode-unicorn-through-trello-window.second-tryout.png" /></div>
