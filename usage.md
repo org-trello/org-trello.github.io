@@ -25,7 +25,7 @@ There are 3 levels (cf. next section sample)
 [Natural org checkboxes](http://orgmode.org/manual/Checkboxes.html).
 Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14).
 
-```clj
+```text
 * IN-PROGRESS Joy of FUN(ctional) LANGUAGES
 - [-] LISP
   - [X] Emacs-Lisp
@@ -44,7 +44,7 @@ Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://git
 
 For example, once synced to trello, this looks like:
 
-```clj
+```text
 * IN-PROGRESS Joy of FUN(ctional) LANGUAGES
 :PROPERTIES:
 :orgtrello-id: 521dc9f3edeabee47600401e
