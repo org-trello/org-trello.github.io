@@ -233,12 +233,13 @@ hr {
 
 a {
   /* color: #63c0f5; */
-  color: #26729e;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+    color: #26729e;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 a:visited {
-    color: #b16d57;
+    color: #b5e853;
+    /* color: #b16d57; */
     text-shadow: none;
 }
 
