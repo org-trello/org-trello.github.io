@@ -69,21 +69,21 @@ Steps:
 
 - Card:
 
-  - Place yourself on the `card-identity` and hit the binding <kbd>C-c o c</kbd>, this will sync the card (create) in the `TODO` column in your trello board.
+  - Place yourself on the **card-identity** and hit the binding <kbd>C-c o c</kbd>, this will sync the card (create) in the **TODO** column in your trello board.
   - You can edit the label and hit <kbd>C-c o c</kbd> again, this time, this will sync the card again (update) in trello
-  - Change the status from TODO to any intermediary status, then hit the binding, this will move the card to the list `DOING` (depending on your todo keywords list).
-  - Once done, move the status of the card from anything to DONE, hit the binding, this will move the card to the list `DONE`.
+  - Change the status from TODO to any intermediary status, then hit the binding, this will move the card to the list **DOING** (depending on your todo keywords list).
+  - Once done, move the status of the card from anything to DONE, hit the binding, this will move the card to the list **DONE**.
 
 - Checklist:
 
-  - Place yourself on the checklist `checklist`, hit the binding, this will add `checklist` as a checklist to your card `card-identity`
+  - Place yourself on the checklist **checklist**, hit the binding, this will add **checklist** as a checklist to your card **card-identity**
   - Rename your checklist and hit again the binding to update its label.
 
 - Item:
 
   - Place yourself on your item and hit the binding, this will add the item to such checklist.
   - Change the label of the item and hit the binding, this will update its label.
-  - Change the status of the item to `DONE` and hit the binding, this will check such item in trello.
+  - Change the status of the item to **DONE** and hit the binding, this will check such item in trello.
 
 #### Card and deadline/due date
 
