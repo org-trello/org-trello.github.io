@@ -70,6 +70,11 @@ a:visited { color: #a0a; }
   margin: 3em auto 2em;
 }
 
+.org-trello-menu-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .header a {
   font-weight: bold;
   text-decoration: none;
