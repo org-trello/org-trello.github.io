@@ -16,35 +16,36 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-
   </head>
   <body>
     <nav class="navbar navbar-inverse" role="navigation">
-      <div class="container-fluid">
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="header"><a href="/">{{ site.name }}</a></li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <ul class="nav navbar-nav navbar-left">
+            <a href="/"><img style="width:30%" src="/images/org-mode-unicorn-through-trello-window.png" /></a>
+            <!-- <a href="/"><img style="width:30%" src="/images/org-unicorn-through-trello.png"></a> -->
+            <!-- <a href="/"><img style="width:30%" src="/images/logo-org-trello-tatoo.png"></a> -->
+            <!-- <li class="header"><a href="/">{{ site.name }}</a></li> -->
+            <!-- <li>&nbsp;&nbsp;&nbsp;&nbsp;</li> -->
           </ul>
-          <ul class="nav navbar-nav">
-            <li><a href="/demo.html">Demo</a></li>
-            <li><a href="/install.html">Install</a></li>
-            <li><a href="/trello-setup.html">Setup</a></li>
-            <li><a href="/bindings.html">Bindings</a></li>
-            <li><a href="/usage.html">Usage</a></li>
-            <li><a href="/downloads.html">Downloads</a></li>
-            <li><a href="/contributions.html">Contrib</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right" style="padding-top: 5px">
+          <ul class="nav navbar-nav navbar-right" style="margin-top: 10px">
             <a href="https://github.com/org-trello/org-trello/zipball/master" class="btn">Download zip</a>
             <a href="https://github.com/org-trello/org-trello/tarball/master" class="btn">Download tgz</a>
             <a href="https://github.com/org-trello/org-trello" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
           </ul>
+          <ul class="nav nav-tabs org-trello-menu" style="margin-top:10px;padding-top:0">
+            <li><a class="org-trello-menu-link" href="/demo.html">Demo</a></li>
+            <li><a class="org-trello-menu-link" href="/install.html">Install</a></li>
+            <li><a class="org-trello-menu-link" href="/trello-setup.html">Setup</a></li>
+            <li><a class="org-trello-menu-link" href="/bindings.html">Bindings</a></li>
+            <li><a class="org-trello-menu-link" href="/usage.html">Usage</a></li>
+            <li><a class="org-trello-menu-link" href="/downloads.html">Downloads</a></li>
+            <li><a class="org-trello-menu-link" href="/contributions.html">Contrib</a></li>
+          </ul>
         </div>
-      </div>
     </nav>
 
-    <div class="site" style="padding-top:5px">
+
+    <div class="site">
 
       {{ content }}
 
@@ -52,7 +53,7 @@
         <div class="contact">
           <p>
             {:github  <a href="https://github.com/ardumont">@ardumont</a><br />
-            :twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
+             :twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
           </p>
         </div>
         <div style="float:right">

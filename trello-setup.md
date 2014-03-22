@@ -14,7 +14,7 @@ Install the consumer-key and the read-write token for org-trello to be able to w
 
 *Note*
 First, ensure that the web browser that emacs is configured to use is started, and you are logged in to Trello in it.
-This will open your browser to retrieve the needed information (`consumer-key` then the `access-token`) and wait for your input in emacs.
+This will open your browser to retrieve the needed information, **consumer-key** then the **access-token**, and wait for your input in emacs.
 
 -
 

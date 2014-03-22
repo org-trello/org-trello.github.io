@@ -4,7 +4,7 @@ title:  "Install"
 date:   2014-03-16 11:01:52
 ---
 
-To install `org-trello` in your emacs, you need a few steps.
+To install **org-trello** in your emacs, you need a few steps.
 
 ### Sources
 
@@ -42,11 +42,11 @@ The divergence comes from the org-trello dependencies which are not the same ver
 
 Use standard emacs installation:
 
-`M-x package-install org-trello RET`
+<kbd>M-x package-install org-trello RET
 
 ### Load org-trello
 
-Add this in your emacs configuration file (`~/.emacs` or `~/.emacs.d/init.el`).
+Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**.
 
 ``` lisp
 (require 'org-trello)
