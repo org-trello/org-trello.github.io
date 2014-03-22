@@ -4,8 +4,6 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
-# Migration
-
 ## 0.3.1
 
 The old checklist/item format has been removed - https://github.com/org-trello/org-trello/issues/105.
