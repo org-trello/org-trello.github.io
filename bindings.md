@@ -22,6 +22,8 @@ Keybindings        | Interactive commands                                  | Des
 <kbd>C-c o u</kbd> | <kbd>M-x org-trello/unassign-me</kbd>                 | Unassign from the card
 <kbd>C-c o j</kbd> | <kbd>M-x org-trello/jump-to-card</kbd>                | Jump to current trello card
 <kbd>C-c o J</kbd> | <kbd>M-x org-trello/jump-to-trello-board</kbd>        | Jump to current trello board
+<kbd>C-c o c</kbd> | <kbd>M-x org-trello/show-card-comments</kbd>          | Show the card's comments
+<kbd>C-c o A</kbd> | <kbd>M-x org-trello/add-card-comments</kbd>           | Add a comment to the card
 <kbd>C-c o h</kbd> | <kbd>M-x org-trello/help-describing-bindings</kbd>    | This help message
 
 ### Prefix binding override in one shot
