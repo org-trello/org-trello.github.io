@@ -47,3 +47,7 @@ You can avoid the previous step and create directly a board from your org-mode f
 
 *Note*
 This will create the list from the keywords you use in your org-mode (cf. [org-todo-keywords](http://orgmode.org/manual/In_002dbuffer-settings.html)).
+
+### Migrations
+
+[migration guide](./migration.html)

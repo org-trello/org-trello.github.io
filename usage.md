@@ -145,6 +145,26 @@ Hit <kbd>C-c o j</kbd>.
 
 *Note* This will use your default browser
 
+#### Show comments
+
+When you synchronize from trello, the comments are also retrieved silently.
+Hit <kbd>C-c o c</kbd> to show the comments (<kbd>M-x org-trello/show-card-comments</kdb>).
+
+*Note* This will open a buffer and show the current comments.
+`C-x 1` to close the buffer.
+
+#### Add comments
+
+You have the possibility to add comments to.
+Hit <kbd>C-c o A</kbd> to add a comment.
+
+*Note* By default, this will post a new comment on the card and stop.
+You can override this behavior by changing a dedicated variable to **true** to have the comments buffer open after that action.
+
+``` lisp
+(setq *ORGTRELLO-DO-SHOW-CARD-COMMENTS-AFTER-ADDING* t)
+```
+
 ### Errors
 
 Here is the following possible error messages org-trello can send you:
