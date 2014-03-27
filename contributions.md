@@ -8,6 +8,8 @@ date:   2014-03-16 11:01:52
 - Any feedback is welcome too
 - Open issues if you want something to be done
 
+-
+
 ## Issues
 
 Please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
@@ -18,6 +20,7 @@ Please, open issues on [the github tracker](https://github.com/org-trello/org-tr
 - your problem with clarity and conciseness
 - an anonymised sample of your org-buffer with problems
 
+-
 
 ## Mailing list
 
