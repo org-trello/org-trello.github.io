@@ -28,3 +28,13 @@ Send an email:
 
 - subscribe: emacs.org.trello [AT] librelist.com
 - unsubscribe: emacs.org.trello-unsubscribe [AT] librelist.com
+
+-
+
+## Credit
+
+Thanks to the various contributors/commiters:
+
+- Nicolas Roche @nicolas_roche (logo, multiple suggestions regarding the web design part).
+- Massyl Nait-Mouloud @nmassyl (exchanges on design and functionalities).
+- and all the other contributors that opened issues and/or pull requests
