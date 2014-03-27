@@ -4,6 +4,23 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
+## 0.3.8
+
+org-trello now tries to enforce symmetry, mainly regarding the sync actions.
+So by default, an action pushes to trello. Using <kbd>C-u</kbd>, the symmetric action pulls from trello.
+
+| Bindings               | Action                                            |
+|------------------------|---------------------------------------------------|
+| <kbd>C-c o c</kbd>     | sync the entity TO trello without its structure   |
+| <kbd>C-u C-c o c</kbd> | sync the entity FROM trello without its structure |
+| <kbd>C-c o C</kbd>     | sync the entity and its structure TO trello       |
+| <kbd>C-u C-c o C</kbd> | sync the entity and its structure FROM trello     |
+| <kbd>C-c o s</kbd>     | sync the buffer TO trello                         |
+| <kbd>C-u C-c o s</kbd> | sync the buffer FROM trello                       |
+| <kbd>C-c o a</kbd>     | assign yourself to the card                       |
+| <kbd>C-u C-c o a</kbd> | unassign yourself from the card                   |
+
+
 ## 0.3.1
 
 The old checklist/item format has been removed - https://github.com/org-trello/org-trello/issues/105.
