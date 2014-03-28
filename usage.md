@@ -221,4 +221,4 @@ From version 0.1.2 onwards, org-trello uses a proxy to:
 
 Example:
 
-![sample](/images/web-admin-sample.png)
+<img style="width:80%" src="/images/web-admin-sample.png" />
