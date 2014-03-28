@@ -16,9 +16,9 @@ Keybindings        | Interactive commands                                  | Des
 <kbd>C-c o d</kbd> | <kbd>M-x org-trello/check-setup</kbd>                 | Check that the setup is ok
 <kbd>C-c o D</kbd> | <kbd>M-x org-trello/delete-setup</kbd>                | Clean the org buffer from all org-trello information
 <kbd>C-c o b</kbd> | <kbd>M-x org-trello/create-board</kbd>                | Create a board and attach the org-mode file to it
-<kbd>C-c o k</kbd> | <kbd>M-x org-trello/kill-entity</kbd>                 | Kill the entity from the board/org buffer
-<kbd>C-c o K</kbd> | <kbd>M-x org-trello/kill-all-entities</kbd>           | Kill all entities the from the board/org buffer
-<kbd>C-c o j</kbd> | <kbd>M-x org-trello/jump-to-card</kbd>                | Jump to current trello card
+<kbd>C-c o k</kbd> | <kbd>M-x org-trello/kill-entity</kbd>                 | Kill the entity from the board/org buffer. With <kbd>C-u</kbd> prefix, kill all entities.
+<kbd>C-c o K</kbd> | <kbd>M-x org-trello/kill-all-entities</kbd>           | Kill all entities from the board/org buffer
+<kbd>C-c o j</kbd> | <kbd>M-x org-trello/jump-to-card</kbd>                | Jump to current trello card. With <kbd>C-u</kbd> prefix, jump to trello board.
 <kbd>C-c o J</kbd> | <kbd>M-x org-trello/jump-to-trello-board</kbd>        | Jump to current trello board
 <kbd>C-c o o</kbd> | <kbd>M-x org-trello/show-card-comments</kbd>          | Show the card's comments
 <kbd>C-c o l</kbd> | <kbd>M-x org-trello/show-card-labels</kbd>            | Show the card's labels
