@@ -9,8 +9,8 @@ Keybindings        | Interactive commands                                  | Des
                    | <kbd>M-x org-trello/version</kbd>                     | Display current version
 <kbd>C-c o i</kbd> | <kbd>M-x org-trello/install-key-and-token</kbd>       | Install the keys and the access-token
 <kbd>C-c o I</kbd> | <kbd>M-x org-trello/install-board-and-lists-ids</kbd> | Connect buffer to board
-<kbd>C-c o c</kbd> | <kbd>M-x org-trello/sync-entity</kbd>                 | Sync an entity to trello. With <kbd>C-u</kbd> prefix, sync from trello
-<kbd>C-c o C</kbd> | <kbd>M-x org-trello/sync-full-entity</kbd>            | Sync an entity and its structure to trello. With <kbd>C-u</kbd> prefix, sync from trello
+<kbd>C-c o c</kbd> | <kbd>M-x org-trello/sync-entity</kbd>                 | Sync an entity to trello. With <kbd>C-u</kbd> prefix, sync an entity from trello
+<kbd>C-c o C</kbd> | <kbd>M-x org-trello/sync-full-entity</kbd>            | Sync an entity and its structure to trello. With <kbd>C-u</kbd> prefix, sync an entity and its structure from trello
 <kbd>C-c o s</kbd> | <kbd>M-x org-trello/sync-buffer</kbd>                 | Sync org file to board. With <kbd>C-u</kbd> prefix, sync org file from trello board
 <kbd>C-c o a</kbd> | <kbd>M-x org-trello/assign-me</kbd>                   | Assign yourself to the card. With <kbd>C-u</kbd> prefix, unassign yourself from the card
 <kbd>C-c o d</kbd> | <kbd>M-x org-trello/check-setup</kbd>                 | Check that the setup is ok
