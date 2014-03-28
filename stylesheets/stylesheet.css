@@ -261,3 +261,8 @@ a:hover {
 .cf {
   zoom:1;
 }
+
+.version {
+    color: #b5e853;
+    font-weight: bold;
+}
