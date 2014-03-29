@@ -262,6 +262,11 @@ a:hover {
   zoom:1;
 }
 
+.main-title {
+    color: #26729e;
+    font-weight: bold;
+}
+
 .version {
     color: #b5e853;
     font-weight: bold;
