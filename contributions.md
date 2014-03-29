@@ -35,6 +35,6 @@ Send an email:
 
 Thanks to the various contributors/commiters:
 
-- Nicolas Roche @nicolas_roche (logo, multiple suggestions regarding the web design part).
-- Massyl Nait-Mouloud @nmassyl (exchanges on design and functionalities).
+- Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) (logo, multiple suggestions regarding the web design part).
+- Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) (exchanges on design and functionalities).
 - and all the other contributors that opened issues and/or pull requests
