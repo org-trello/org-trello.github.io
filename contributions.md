@@ -4,15 +4,15 @@ title:  "Contributions"
 date:   2014-03-16 11:01:52
 ---
 
-- Pull Requests are welcome
+- Pull Requests are more than welcome ([README-dev.md](https://github.com/org-trello/org-trello/blob/master/README-dev.md))
 - Any feedback is welcome too
-- Open issues if you want something to be done
+- open [github issues](https://github.com/org-trello/org-trello/issues?state=open) for new need or real issues
 
 -
 
 ## Issues
 
-Please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
+When there is trouble, please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
 
 - emacs version
 - org-trello version
