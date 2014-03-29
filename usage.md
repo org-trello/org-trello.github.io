@@ -211,14 +211,3 @@ Here is the following possible error messages org-trello can send you:
 - syncing the item without syncing the checklist first:
 
     > Cannot synchronize the item - the checklist must be synchronized first. Skip it...
-
-### Web-admin
-
-From version 0.1.2 onwards, org-trello uses a proxy to:
-
-- execute the synchronization of the org entities
-- provide a web admin interface at [localhost:9876/proxy/admin/](http://localhost:9876/proxy/admin/)
-
-Example:
-
-<img style="width:80%" src="/images/web-admin-sample.png" />
