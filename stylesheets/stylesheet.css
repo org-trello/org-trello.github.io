@@ -231,19 +231,19 @@ hr {
    a, a:hover, a:visited
 */
 
-a {
+.btn, a {
   /* color: #63c0f5; */
     color: #26729e;
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
-a:visited {
+.btn:visited, a:visited {
     color: #b5e853;
     /* color: #b16d57; */
     text-shadow: none;
 }
 
-a:hover {
+.btn:hover, a:hover {
     text-shadow: none;
 }
 
@@ -260,6 +260,11 @@ a:hover {
 
 .cf {
   zoom:1;
+}
+
+.main-title {
+    color: #26729e;
+    font-weight: bold;
 }
 
 .version {
