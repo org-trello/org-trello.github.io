@@ -4,15 +4,15 @@ title:  "Contributions"
 date:   2014-03-16 11:01:52
 ---
 
-- Pull Requests are welcome
+- Pull Requests are more than welcome ([README-dev.md](https://github.com/org-trello/org-trello/blob/master/README-dev.md))
 - Any feedback is welcome too
-- Open issues if you want something to be done
+- open [github issues](https://github.com/org-trello/org-trello/issues?state=open) for new need or real issues
 
 -
 
 ## Issues
 
-Please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
+When there is trouble, please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
 
 - emacs version
 - org-trello version
@@ -35,6 +35,6 @@ Send an email:
 
 Thanks to the various contributors/commiters:
 
-- Nicolas Roche @nicolas_roche (logo, multiple suggestions regarding the web design part).
-- Massyl Nait-Mouloud @nmassyl (exchanges on design and functionalities).
+- Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) (logo, multiple suggestions regarding the web design part).
+- Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) (exchanges on design and functionalities).
 - and all the other contributors that opened issues and/or pull requests
