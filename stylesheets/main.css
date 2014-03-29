@@ -63,13 +63,6 @@ a:visited { color: #a0a; }
   line-height: 2em;
 }
 
-.org-trello-menu {
-  font-size: 100%;
-  text-align: justify;
-  width: 55em;
-  margin: 3em auto 2em;
-}
-
 .org-trello-menu-link {
   font-weight: bold;
   text-decoration: none;
