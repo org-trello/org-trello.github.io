@@ -270,3 +270,7 @@ a:hover {
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: #26729e;
 }
+
+.nav > li > a:hover {
+    color: #f28931;
+}
