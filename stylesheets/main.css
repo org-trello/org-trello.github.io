@@ -167,3 +167,7 @@ a:visited { color: #a0a; }
 .navbar {
     margin-bottom: 0;
 }
+
+.menu {
+    margin-top: 10px;
+}
