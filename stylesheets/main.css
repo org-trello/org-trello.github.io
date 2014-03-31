@@ -171,3 +171,7 @@ a:visited { color: #a0a; }
 .menu {
     margin-top: 10px;
 }
+
+.site {
+    padding-left: 2.5%;
+}
