@@ -262,14 +262,17 @@ hr {
   zoom:1;
 }
 
-.main-title {
+#main-title {
     color: #26729e;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
-.version {
+#version {
     color: #b5e853;
     font-weight: bold;
+    font-size: 0.9em;
+    padding-left: 1em;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
