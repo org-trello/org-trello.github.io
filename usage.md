@@ -88,6 +88,23 @@ Steps:
 
 You can use [org-mode's deadline](http://orgmode.org/manual/Inserting-deadline_002fschedule.html), this is mapped to trello's due date notion during the synchronize step.
 
+#### Sync entity to trello board
+
+You can sync the entity without its arborescence to trello.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o c</kbd>.
+
+When on:
+- a card, this will only sync the card
+- a checklist, this will only sync the checklist
+- an item, will only sync the item
+
+#### Sync entity from trello board
+
+You can sync the entity without its arborescence from trello.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-u C-c o c</kbd>.
+
 #### Creation of a full entity
 
 You can sync the full entity and its arborescence.
@@ -99,6 +116,12 @@ When on:
 - a checklist, this will sync the checklist then the items.
 - an item, will only sync the item
 
+#### Sync entity with structure from trello board
+
+You can sync the entity and its full structure from trello board.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-u C-c o C</kbd>.
+
 #### Sync org-mode file to trello board
 
 All entities from the org buffer will be created or updated to the trello board.
@@ -107,7 +130,7 @@ Hit <kbd>C-c o s</kbd>.
 #### Sync org-mode file from trello board
 
 All entities from the org buffer will be synced with the trello board content.
-Hit <kbd>C-c o S</kbd>.
+Hit <kbd>C-u C-c o s</kbd>.
 
 This will update any entries that were already present in the org-mode file and create any entries that were not created yet.
 
@@ -130,17 +153,17 @@ Hit <kbd>C-c o x</kbd>.
 
 *Note* This will also remove header metadata file.
 
-#### Jump to trello board
-
-Jump to the trello board the org buffer is connected to.
-Hit <kbd>C-c o j</kbd>.
-
-*Note* This will use your default browser
-
 #### Jump to trello card
 
 Jump to the card in the trello board the org buffer is connected to.
 Hit <kbd>C-c o j</kbd>.
+
+*Note* This will use your default browser
+
+#### Jump to trello board
+
+Jump to the trello board the org buffer is connected to.
+Hit <kbd>C-u C-c o j</kbd>.
 
 *Note* This will use your default browser
 
