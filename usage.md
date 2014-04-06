@@ -173,7 +173,7 @@ When you synchronize from trello, the comments are also retrieved silently.
 Hit <kbd>C-c o o</kbd> to show the comments (<kbd>M-x org-trello/show-card-comments</kdb>).
 
 *Note* This will open a buffer and show the current comments.
-`C-x 1` to close the buffer.
+<kbd>C-x 1</kbd> to close the buffer.
 
 #### Add comments
 
