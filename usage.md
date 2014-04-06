@@ -8,7 +8,7 @@ This section will show:
 
 - the format
 - an org-trello sample buffer
-- the use cases
+- possible use cases
 - the potential errors you can encounter
 
 ### Format
