@@ -8,9 +8,8 @@ This section will show:
 
 - the format
 - an org-trello sample buffer
-- the use cases
+- possible use cases
 - the potential errors you can encounter
-- the web-admin interface
 
 ### Format
 
@@ -23,7 +22,7 @@ There are 3 levels (cf. next section sample)
 ### Sample
 
 [Natural org checkboxes](http://orgmode.org/manual/Checkboxes.html).
-Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14).
+Thanks to @sw1nn [for showing me this org feature, this is awesome!](https://github.com/org-trello/org-trello/issues/14)
 
 ```text
 * IN-PROGRESS Joy of FUN(ctional) LANGUAGES
@@ -89,6 +88,23 @@ Steps:
 
 You can use [org-mode's deadline](http://orgmode.org/manual/Inserting-deadline_002fschedule.html), this is mapped to trello's due date notion during the synchronize step.
 
+#### Sync entity to trello board
+
+You can sync the entity without its arborescence to trello.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o c</kbd>.
+
+When on:
+- a card, this will only sync the card
+- a checklist, this will only sync the checklist
+- an item, will only sync the item
+
+#### Sync entity from trello board
+
+You can sync the entity without its arborescence from trello.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-u C-c o c</kbd>.
+
 #### Creation of a full entity
 
 You can sync the full entity and its arborescence.
@@ -100,6 +116,12 @@ When on:
 - a checklist, this will sync the checklist then the items.
 - an item, will only sync the item
 
+#### Sync entity with structure from trello board
+
+You can sync the entity and its full structure from trello board.
+
+Place yourself on the entity (card or checklist or item) and hit <kbd>C-u C-c o C</kbd>.
+
 #### Sync org-mode file to trello board
 
 All entities from the org buffer will be created or updated to the trello board.
@@ -108,7 +130,7 @@ Hit <kbd>C-c o s</kbd>.
 #### Sync org-mode file from trello board
 
 All entities from the org buffer will be synced with the trello board content.
-Hit <kbd>C-c o S</kbd>.
+Hit <kbd>C-u C-c o s</kbd>.
 
 This will update any entries that were already present in the org-mode file and create any entries that were not created yet.
 
@@ -131,17 +153,17 @@ Hit <kbd>C-c o x</kbd>.
 
 *Note* This will also remove header metadata file.
 
-#### Jump to trello board
-
-Jump to the trello board the org buffer is connected to.
-Hit <kbd>C-c o j</kbd>.
-
-*Note* This will use your default browser
-
 #### Jump to trello card
 
 Jump to the card in the trello board the org buffer is connected to.
 Hit <kbd>C-c o j</kbd>.
+
+*Note* This will use your default browser
+
+#### Jump to trello board
+
+Jump to the trello board the org buffer is connected to.
+Hit <kbd>C-u C-c o j</kbd>.
 
 *Note* This will use your default browser
 
@@ -151,7 +173,7 @@ When you synchronize from trello, the comments are also retrieved silently.
 Hit <kbd>C-c o o</kbd> to show the comments (<kbd>M-x org-trello/show-card-comments</kdb>).
 
 *Note* This will open a buffer and show the current comments.
-`C-x 1` to close the buffer.
+<kbd>C-x 1</kbd> to close the buffer.
 
 #### Add comments
 
@@ -167,7 +189,7 @@ You can override this behavior by changing a dedicated variable to **true** to h
 
 ### Errors
 
-Here is the following possible error messages org-trello can send you:
+org-trello can display the following possible error messages:
 
 - without setting up the consumer-key and the access-token:
 
