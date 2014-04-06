@@ -10,7 +10,6 @@ This section will show:
 - an org-trello sample buffer
 - the use cases
 - the potential errors you can encounter
-- the web-admin interface
 
 ### Format
 
