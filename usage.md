@@ -189,7 +189,7 @@ You can override this behavior by changing a dedicated variable to **true** to h
 
 ### Errors
 
-Here is the following possible error messages org-trello can send you:
+org-trello can display the following possible error messages:
 
 - without setting up the consumer-key and the access-token:
 
