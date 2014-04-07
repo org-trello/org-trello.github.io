@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
 
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/toc.js"></script>
+
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" media="screen" />
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" media="screen" />
@@ -58,6 +61,7 @@
       </div>
 
       <div class="site">
+        <div class="toc"></div>
 
         {{ content }}
 
@@ -78,5 +82,16 @@
     <script src="/javascripts/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/javascripts/bootstrap.min.js"></script>
+    <!-- doc generation -->
+    <script type="text/javascript">
+      // when the document is ready, render the toc
+      $(document).ready(function() {
+        $('.toc').toc();
+      });
+      /* setup to no slide effect */
+      /* $('.toc').toc({ showSpeed: 0 }); */
+      // unordered list
+      $('.toc').toc({ listType: 'ul' });
+    </script>
   </body>
 </html>
