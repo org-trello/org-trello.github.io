@@ -4,6 +4,10 @@ title:  "Bindings"
 date:   2014-03-16 11:01:52
 ---
 
+This section will describe the key bindings and their associated commands.
+
+## Keybindings
+
 Keybindings        | Interactive commands                                  | Description
 -------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------
                    | <kbd>M-x org-trello/version</kbd>                     | Display current version
@@ -29,12 +33,10 @@ Keybindings        | Interactive commands                                  | Des
 *Note:*
 
 - org-trello tries to enforce symmetry, mainly regarding the sync actions.
-So by default, an action pushes to trello. Using <kbd>C-u</kbd>, the symmetric actions pull from trello.
+So by default, an action pushes to trello. Using <kbd>C-u</kbd>, the symmetric actions pulls from trello.
 - An entity in org-trello is either a card, checklist or an item.
 
--
-
-### Prefix binding override in one shot
+## Prefix binding override in one shot
 
 If you are not happy with "C-c o" as default prefix, you can now override your default prefix keybinding.
 For this, you need to install the following hook specifying the <prefix-key>:
