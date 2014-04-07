@@ -6,11 +6,11 @@ date:   2014-03-16 11:01:52
 
 To install **org-trello** in your emacs, you need a few steps.
 
-### Sources
+## Sources
 
 If not already configured, you need to prepare emacs to work with marmalade or melpa.
 
-#### Marmalade (recommended)
+### Marmalade (recommended)
 
 Add this to your emacs configuration file.
 
@@ -22,7 +22,7 @@ Add this to your emacs configuration file.
 
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
-#### Melpa (~snapshot)
+### Melpa (~snapshot)
 
 Add this to your emacs configuration file.
 
@@ -38,7 +38,7 @@ Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 Melpa and Marmalade repositories provide the same org-trello code.
 The divergence comes from the org-trello dependencies which are not the same versions.
 
-### Install
+## Install
 
 Use standard emacs installation:
 

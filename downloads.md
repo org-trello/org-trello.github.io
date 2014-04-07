@@ -7,9 +7,7 @@ date:   2014-03-16 11:01:52
 - [Releases](https://github.com/org-trello/org-trello/releases)
 - [Release notes](https://raw.github.com/org-trello/org-trello/master/release-notes.md)
 
--
-
-### Emacs Compatibility
+## Emacs Compatibility
 
 Version   | OS                           | Status
 ----------|------------------------------|---------
@@ -19,9 +17,7 @@ Version   | OS                           | Status
 24.3.1    | Ubuntu 13.10                 | OK
 24.3.50.1 | Linux Mint 16 (debian based) | OK
 
--
-
-### Continuous Integration <a href="https://travis-ci.org/org-trello/org-trello"><img src="https://travis-ci.org/org-trello/org-trello.png?branch=master" alt="Build Status"></a>
+## Continuous Integration <a href="https://travis-ci.org/org-trello/org-trello"><img src="https://travis-ci.org/org-trello/org-trello.png?branch=master" alt="Build Status"></a>
 
 The CI tests and installs:
 

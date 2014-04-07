@@ -4,6 +4,10 @@ title:  "Bindings"
 date:   2014-03-16 11:01:52
 ---
 
+This section will describe the key bindings and their associated commands.
+
+## Keybindings
+
 Keybindings        | Interactive commands                                  | Description
 -------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------
                    | <kbd>M-x org-trello/version</kbd>                     | Display current version
@@ -29,28 +33,65 @@ Keybindings        | Interactive commands                                  | Des
 *Note:*
 
 - org-trello tries to enforce symmetry, mainly regarding the sync actions.
-So by default, an action pushes to trello. Using <kbd>C-u</kbd>, the symmetric actions pull from trello.
+So by default, an action pushes to trello. Using <kbd>C-u</kbd>, the symmetric actions pulls from trello.
 - An entity in org-trello is either a card, checklist or an item.
 
--
+## Bindings override
 
-### Prefix binding override in one shot
+You can, as usual [override those proposed default bindings](http://ergoemacs.org/emacs/reclaim_keybindings.html).
 
-If you are not happy with "C-c o" as default prefix, you can now override your default prefix keybinding.
+For example:
+
+``` lisp
+(require 'org-trello)
+
+(add-hook 'org-trello-mode-hook
+  (lambda ()
+    (define-key org-trello-mode-map (kbd "C-c x v") 'org-trello/version)
+    (define-key org-trello-mode-map (kbd "C-c x i") 'org-trello/install-key-and-token)
+    (define-key org-trello-mode-map (kbd "C-c x I") 'org-trello/install-board-and-lists-ids)
+    (define-key org-trello-mode-map (kbd "C-c x c") 'org-trello/sync-entity)
+    (define-key org-trello-mode-map (kbd "C-c x C") 'org-trello/sync-full-entity)
+    (define-key org-trello-mode-map (kbd "C-c x s") 'org-trello/sync-buffer)
+    (define-key org-trello-mode-map (kbd "C-c x a") 'org-trello/assign-me)
+    (define-key org-trello-mode-map (kbd "C-c x d") 'org-trello/check-setup)
+    (define-key org-trello-mode-map (kbd "C-c x D") 'org-trello/delete-setup)
+    (define-key org-trello-mode-map (kbd "C-c x b") 'org-trello/create-board)
+    (define-key org-trello-mode-map (kbd "C-c x k") 'org-trello/kill-entity)
+    (define-key org-trello-mode-map (kbd "C-c x K") 'org-trello/kill-all-entities)
+    (define-key org-trello-mode-map (kbd "C-c x j") 'org-trello/jump-to-card)
+    (define-key org-trello-mode-map (kbd "C-c x J") 'org-trello/jump-to-trello-board)
+    (define-key org-trello-mode-map (kbd "C-c x o") 'org-trello/show-card-comments)
+    (define-key org-trello-mode-map (kbd "C-c x l") 'org-trello/show-card-labels)
+    (define-key org-trello-mode-map (kbd "C-c x A") 'org-trello/add-card-comments)
+    (define-key org-trello-mode-map (kbd "C-c x u") 'org-trello/update-board-metadata)
+    (define-key org-trello-mode-map (kbd "C-c x h") 'org-trello/help-describing-bindings)))
+```
+
+*Note* This will not update the help message with your current redefinition nor remove default bindings (you will need to do the cleanup yourself).
+
+## Prefix binding override
+
+You can also simply change the default prefix key <kbd>C-c o</kbd> and let org-trello do the rest.
+
 For this, you need to install the following hook specifying the <prefix-key>:
 
 ``` lisp
 (require 'org-trello)
 
-(add-hook 'org-trello-mode-hook (lambda () (org-trello/install-local-prefix-mode-keybinding! <prefix-key>)))
+(add-hook
+   'org-trello-mode-hook
+   (lambda () (org-trello/install-local-prefix-mode-keybinding! <prefix-key>)))
 ```
 
-For example, installing using the "C-c x" as prefix key:
+For example, installing using the <kbd>C-c x</kbd> as prefix key:
 
 ``` lisp
 (require 'org-trello)
 
-(add-hook 'org-trello-mode-hook (lambda () (org-trello/install-local-prefix-mode-keybinding! "C-c x")))
+(add-hook
+   'org-trello-mode-hook
+   (lambda () (org-trello/install-local-prefix-mode-keybinding! "C-c x")))
 ```
 
 *Note* If org-trello was already running, you will need to relaunch the mode (<kbd>M-x org-trello-mode</kbd> twice).
