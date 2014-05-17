@@ -49,7 +49,7 @@ The divergence comes from the org-trello dependencies which are not the same ver
 
 Use standard emacs installation:
 
-<kbd>M-x package-install org-trello RET
+<kbd>M-x package-install org-trello RET</kbd>
 
 ### Load org-trello
 
