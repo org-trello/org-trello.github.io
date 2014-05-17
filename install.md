@@ -64,6 +64,8 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 
 ### Alternative
 
+#### Git
+
 You can directly retrieve org-trello from github.
 
 Clone org-trello from GitHub
@@ -78,3 +80,8 @@ Add the org-trello directory to your load path and then add
 (add-to-list 'load-path "/path/to/org-trello/")
 (require 'org-trello)
 ```
+
+#### Tar
+
+Download the tar archive from https://github.com/org-trello/org-trello/releases.
+Then <kbd>M-x package-install-file RET </path/to/trello.tar> RET</kbd>
