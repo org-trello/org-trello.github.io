@@ -9,10 +9,9 @@ To install **org-trello** in your emacs, you need a few steps.
 ## Sources
 
 If not already configured, you need to prepare emacs to work with marmalade or melpa.
+For this, you need to install a snippet of code in your emacs configuration file.
 
 ### Marmalade (recommended)
-
-Add this to your emacs configuration file.
 
 ``` lisp
 (require 'package)
@@ -22,9 +21,17 @@ Add this to your emacs configuration file.
 
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
-### Melpa (~snapshot)
+### Melpa-stable
 
-Add this to your emacs configuration file.
+``` lisp
+(require 'package)
+(add-to-list 'package-archives '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/"))
+(package-initialize)
+```
+
+Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
+
+### Melpa (~snapshot)
 
 ``` lisp
 (require 'package)
@@ -42,7 +49,7 @@ The divergence comes from the org-trello dependencies which are not the same ver
 
 Use standard emacs installation:
 
-<kbd>M-x package-install org-trello RET
+<kbd>M-x package-install org-trello RET</kbd>
 
 ### Load org-trello
 
@@ -56,6 +63,8 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 ```
 
 ### Alternative
+
+#### Git
 
 You can directly retrieve org-trello from github.
 
@@ -71,3 +80,8 @@ Add the org-trello directory to your load path and then add
 (add-to-list 'load-path "/path/to/org-trello/")
 (require 'org-trello)
 ```
+
+#### Tar
+
+Download the tar archive from https://github.com/org-trello/org-trello/releases.
+Then <kbd>M-x package-install-file RET </path/to/trello.tar> RET</kbd>

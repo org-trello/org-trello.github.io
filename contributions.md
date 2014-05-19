@@ -18,6 +18,11 @@ When there is trouble, please, open issues on [the github tracker](https://githu
 - your problem with clarity and conciseness
 - an anonymised sample of your org-buffer with problems
 
+*Note*
+We answer to questions. Sometimes, we need more information though.
+So be prepared to receive questions if we do not fully understand the issue.
+The more input you provide, the better and faster we shall solve the issue.
+
 ## Mailing list
 
 Send an email:
