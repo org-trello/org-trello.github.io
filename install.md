@@ -49,7 +49,7 @@ The divergence comes from the org-trello dependencies which are not the same ver
 
 Use standard emacs installation:
 
-<kbd>M-x package-install org-trello RET</kbd>
+<kbd>M-x package-install RET org-trello RET</kbd>
 
 ### Load org-trello
 
@@ -64,24 +64,32 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 
 ### Alternative
 
-#### Git
+#### Tarball
 
-You can directly retrieve org-trello from github.
+Retrieve the tarball from [github](https://github.com/org-trello/org-trello/releases) then:
 
-Clone org-trello from GitHub
+```sh
+wget https://github.com/org-trello/org-trello/releases/download/$VERSION/org-trello-$VERSION.tar -o /path/to/org-trello-$VERSION.tar
+```
+
+<kbd>M-x package-install-file RET /path/to/org-trello-$VERSION.tar RET</kbd>
+
+#### Git + Cask (dev)
+
+Clone org-trello from GitHub:
 
 ```sh
 git clone http://github.com/org-trello/org-trello.git
 ```
 
-Add the org-trello directory to your load path and then add
+You can use [Cask](https://cask.github.io/) to make a local tarball and install using Emacs:
 
-``` lisp
-(add-to-list 'load-path "/path/to/org-trello/")
-(require 'org-trello)
+```sh
+make install package
 ```
 
-#### Tar
+*Note* `install` will download Cask and `package` will create an org-trello tarball archive containing org-trello.
 
-Download the tar archive from https://github.com/org-trello/org-trello/releases.
-Then <kbd>M-x package-install-file RET </path/to/trello.tar> RET</kbd>
+Now install the built `org-trello-$VERSION.tar` using Emacs.
+
+<kbd>M-x package-install-file RET /path/to/org-trello-$VERSION.tar RET</kbd>
