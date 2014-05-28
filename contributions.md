@@ -32,8 +32,12 @@ Send an email:
 
 ## Credit
 
-Thanks to the various contributors/commiters:
+Thanks to the various contributors/commiters (the order has no importance):
 
 - Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) (logo, multiple suggestions regarding the web design part).
 - Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) (exchanges on design and functionalities).
-- and all the other contributors that opened issues and/or pull requests
+- Ilya Zonov [@puzan](https://github.com/puzan) for the org-trello's el-get recipe
+- Steve Purcell [@purcell](https://github.com/purcell) for the various discussions and suggestions regarding packaging on melpa
+- Nic Ferrier [@purcell](https://github.com/nicferrier) for marmalade, elnode, etc...
+
+- and all the other contributors who opened issues and/or pull requests
