@@ -74,6 +74,14 @@ wget https://github.com/org-trello/org-trello/releases/download/$VERSION/org-tre
 
 <kbd>M-x package-install-file RET /path/to/org-trello-$VERSION.tar RET</kbd>
 
+#### [el-get](https://github.com/dimitri/el-get)
+
+An el-get recipe has been made for [org-trello](https://github.com/dimitri/el-get/blob/master/recipes/org-trello.rcp).
+
+To install it through el-get:
+
+<kbd>M-x el-get-install RET org-trello RET</kbd>
+
 #### Git + Cask (dev)
 
 Clone org-trello from GitHub:
