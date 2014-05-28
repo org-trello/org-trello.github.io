@@ -6,7 +6,7 @@ date:   2014-03-16 11:01:52
 
 To install **org-trello** in your emacs, you need a few steps.
 
-## Sources
+## Package
 
 If not already configured, you need to prepare emacs to work with marmalade or melpa.
 For this, you need to install a snippet of code in your emacs configuration file.
@@ -59,10 +59,10 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 (require 'org-trello)
 ;; to have org-trello activated for each org file, uncomment this
 ;; (add-hook 'org-mode-hook 'org-trello-mode)
-;; otherwise, M-x org-trello-mode
+;; otherwise, M-x org-trello-mode in an org buffer to activate org-trello
 ```
 
-### Alternative
+### Alternative install
 
 #### Tarball
 
@@ -73,6 +73,14 @@ wget https://github.com/org-trello/org-trello/releases/download/$VERSION/org-tre
 ```
 
 <kbd>M-x package-install-file RET /path/to/org-trello-$VERSION.tar RET</kbd>
+
+#### [el-get](https://github.com/dimitri/el-get)
+
+An el-get recipe has been made for [org-trello](https://github.com/dimitri/el-get/blob/master/recipes/org-trello.rcp).
+
+To install it through el-get:
+
+<kbd>M-x el-get-install RET org-trello RET</kbd>
 
 #### Git + Cask (dev)
 
