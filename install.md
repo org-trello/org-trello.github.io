@@ -6,7 +6,7 @@ date:   2014-03-16 11:01:52
 
 To install **org-trello** in your emacs, you need a few steps.
 
-## Sources
+## Package
 
 If not already configured, you need to prepare emacs to work with marmalade or melpa.
 For this, you need to install a snippet of code in your emacs configuration file.
