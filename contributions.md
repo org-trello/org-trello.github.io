@@ -34,10 +34,9 @@ Send an email:
 
 Thanks to the various contributors/commiters (the order has no importance):
 
-- Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) (logo, multiple suggestions regarding the web design part).
-- Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) (exchanges on design and functionalities).
+- Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) for the logo and the multiple suggestions regarding the web design part.
+- Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) for multiple exchanges on design and functionalities.
 - Ilya Zonov [@puzan](https://github.com/puzan) for the org-trello's el-get recipe
-- Steve Purcell [@purcell](https://github.com/purcell) for the various discussions and suggestions regarding packaging on melpa
-- Nic Ferrier [@purcell](https://github.com/nicferrier) for marmalade, elnode, etc...
-
+- Steve Purcell [@purcell](https://github.com/purcell) for the various discussions, suggestions regarding packaging on [Melpa](http://melpa.milkbox.net/)
+- Nic Ferrier [@nicferrier](https://github.com/nicferrier) for [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), etc...
 - and all the other contributors who opened issues and/or pull requests
