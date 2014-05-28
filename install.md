@@ -62,7 +62,7 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 ;; otherwise, M-x org-trello-mode in an org buffer to activate org-trello
 ```
 
-### Alternative
+### Alternative install
 
 #### Tarball
 
