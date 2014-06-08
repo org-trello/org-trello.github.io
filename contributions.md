@@ -39,4 +39,6 @@ Thanks to the various contributors/commiters (the order has no importance):
 - Ilya Zonov [@puzan](https://github.com/puzan) for the org-trello's el-get recipe
 - Steve Purcell [@purcell](https://github.com/purcell) for the various discussions, suggestions regarding packaging on [Melpa](http://melpa.milkbox.net/)
 - Nic Ferrier [@nicferrier](https://github.com/nicferrier) for [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), etc...
+- Duncan Tebbs [@dtebbs](https://github.com/dtebbs) for the [PR - fix on the card description](https://github.com/org-trello/org-trello/pull/173)
+- Jason Miller [@jasom](https://github.com/jasom) for the [PR - improvments on the trello card's description rendering on trello and org](https://github.com/org-trello/org-trello/pull/175).
 - and all the other contributors who opened issues and/or pull requests
