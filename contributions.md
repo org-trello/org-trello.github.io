@@ -34,9 +34,13 @@ Send an email:
 
 Thanks to the various contributors/commiters (the order has no importance):
 
-- Nicolas Roche [@nicolas_roche](https://twitter.com/nicolas_roche) for the logo and the multiple suggestions regarding the web design part.
-- Massyl Nait-Mouloud [@nmassyl](https://twitter.com/nmassyl) for multiple exchanges on design and functionalities.
-- Ilya Zonov [@puzan](https://github.com/puzan) for the org-trello's el-get recipe
-- Steve Purcell [@purcell](https://github.com/purcell) for the various discussions, suggestions regarding packaging on [Melpa](http://melpa.milkbox.net/)
-- Nic Ferrier [@nicferrier](https://github.com/nicferrier) for [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), etc...
-- and all the other contributors who opened issues and/or pull requests
+Contributors                                        | Actions
+ ---------------------------------------------------|---------------------------------------------------------------------------------------------------
+[@nicolas_roche](https://twitter.com/nicolas_roche) | logo and the multiple suggestions regarding the web design part.
+[@nmassyl](https://twitter.com/nmassyl)             | multiple exchanges on design and functionalities.
+[@puzan](https://github.com/puzan)                  | org-trello's el-get recipe
+[@purcell](https://github.com/purcell)              | various discussions, suggestions regarding packaging on [Melpa](http://melpa.milkbox.net/)
+[@nicferrier](https://github.com/nicferrier)        | [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), etc...
+[@dtebbs](https://github.com/dtebbs)                | [PR - fix on the card description](https://github.com/org-trello/org-trello/pull/173)
+[@jasom](https://github.com/jasom)                  | [PR - improvments on the trello card's description rendering on trello and org](https://github.com/org-trello/org-trello/pull/175).
+... and all the other contributors                  | opened issues and/or pull requests
