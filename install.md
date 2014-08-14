@@ -11,27 +11,7 @@ To install **org-trello** in your emacs, you need a few steps.
 If not already configured, you need to prepare emacs to work with marmalade or melpa.
 For this, you need to install a snippet of code in your emacs configuration file.
 
-### Marmalade (recommended)
-
-``` lisp
-(require 'package)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages"))
-(package-initialize)
-```
-
-Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
-
-### Melpa-stable
-
-``` lisp
-(require 'package)
-(add-to-list 'package-archives '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/"))
-(package-initialize)
-```
-
-Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
-
-### Melpa (~snapshot)
+### Melpa
 
 ``` lisp
 (require 'package)
@@ -42,8 +22,7 @@ Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
 *Note*
-Melpa and Marmalade repositories provide the same org-trello code.
-The divergence comes from the org-trello dependencies which are not the same versions.
+Marmalade is no longer maintained. Also melpa-stable cannot be used because there is an elnode dependency which is not present on it.
 
 ## Install
 
