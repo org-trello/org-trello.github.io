@@ -1,6 +1,9 @@
 pr:
 	hub pull-request -b org-trello:master
 
+deps:
+	sudo apt-get install -y bundler
+
 pull:
 	git fetch --all --prune
 	git merge upstream/master
@@ -9,5 +12,5 @@ pull:
 run-dev:
 	bundle exec jekyll serve --watch
 
-install:
+install: deps
 	bundle install
