@@ -4,6 +4,18 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
+## 0.5.2
+
+Decision has been taken to remove the intermediary proxy used to bounce requests to trello.
+This was introduced to permit asynchronous requests.
+This was only partially applied.
+So too many lines of code to maintain for small benefits.
+
+This version is synchronous as it was in the beginning (The base code is not the same though).
+
+This is a temporary setback.
+We need time to craft a better implementation for asynchronous requests (deferred, async libraries seems interesting enough).
+
 ## 0.3.8
 
 org-trello now tries to enforce symmetry, mainly regarding the sync actions.

@@ -41,14 +41,3 @@ This will create the list from the keywords you use in your org-mode (cf. [org-t
 ## Migrations
 
 [migration guide](./migration.html)
-
-## Proxy
-
-If you are using a proxy, as org-trello runs a local web server on port 9876 which serves http request, you need to allow this to bypass your proxy.
-A solution to this in emacs would be for example (your mileage may vary):
-
-``` lisp
-(setenv "no_proxy" "localhost,127.0.0.0/8")
-```
-
-For more details [see this discussion](https://github.com/org-trello/org-trello/issues/171).
