@@ -4,6 +4,14 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
+## 0.5.3
+
+Lots of work has been done to make org-trello:
+- more responsive (almost no more blocking actions).
+- faster (trello queries have been improved to let the trello servers do the computations)
+
+Default [interactive commands](http://org-trello.github.io/bindings.html#keybindings) names have been renamed to be explicit and aligned between them.
+
 ## 0.5.2
 
 Decision has been taken to remove the intermediary proxy used to bounce requests to trello.
