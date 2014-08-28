@@ -29,8 +29,8 @@ If the issue is relative to org-trello's:
 
 *Note*
 We answer to questions alright. Sometimes, we need more information though.
-So be prepared to receive some if we do not fully understand the issue.
-The more input you provide, the better and faster we shall solve the issue.
+So be prepared to receive some if we do not fully understand.
+The more input you provide, the better and faster we shall solve it.
 
 ## Mailing list
 
