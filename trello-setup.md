@@ -20,7 +20,7 @@ This will open your browser to retrieve the needed information, **consumer-key**
 
 For each org-mode file, you need to connect your org-mode file with a trello board.
 
-<kbd>C-c o I</kbd> or <kbd>M-x org-trello/install-board-and-lists-ids</kbd>
+<kbd>C-c o I</kbd> or <kbd>M-x org-trello/install-board-metadata</kbd>
 
 *Note*
 This will present you with a list of your actual boards. Select the one you want and hit enter.
@@ -33,7 +33,7 @@ This needs to be done once for each org-mode file you want to sync with a trello
 
 You can avoid the previous step and create directly a board from your org-mode file.
 
-<kbd>C-c o b</kbd> or <kbd>M-x org-trello/create-board</kbd>
+<kbd>C-c o b</kbd> or <kbd>M-x org-trello/create-board-and-install-metadata</kbd>
 
 *Note*
 This will create the list from the keywords you use in your org-mode (cf. [org-todo-keywords](http://orgmode.org/manual/In_002dbuffer-settings.html)).
