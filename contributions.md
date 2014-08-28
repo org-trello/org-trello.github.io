@@ -20,17 +20,18 @@ When there is trouble, please, open issues on [the github tracker](https://githu
 - [melpa](http://melpa.milkbox.net/) or [melpa-stable](http://melpa-stable.milkbox.net/) repository installation
 - your problem with clarity and conciseness
 - an anonymised sample of your org-buffer with problems
-- please, do state the obvious. It may be not that much to us!
+- do state the obvious
+- use github's [excellent markdown format](https://help.github.com/articles/github-flavored-markdown#syntax-highlighting) to ease readings
 
 If the issue is relative to org-trello's:
 
-- functionality: an extracted sample of the `*Message*` buffer's content
-- installation: the `*Compile log*` buffer's content
+- functionality: provide an extracted sample of the `*Message*` buffer's content
+- installation: provide the `*Compile log*` buffer's content
 
 *Note*
-We answer to questions alright. Sometimes, we need more information though.
+We answer to issues/questions alright. Sometimes, we need more information though.
 So be prepared to receive some if we do not fully understand.
-The more input you provide, the better and faster we shall solve it.
+Keep in mind that the more input you provide clearly, concisely and completely, the better and faster we will be able to solve it.
 
 ## Mailing list
 
