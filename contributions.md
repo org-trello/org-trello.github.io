@@ -23,6 +23,7 @@ When there is trouble, please, open issues on [the github tracker](https://githu
 - please, do state the obvious. It may be not that much to us!
 
 If the issue is relative to org-trello's:
+
 - functionality: an extracted sample of the `*Message*` buffer's content
 - installation: the `*Compile log*` buffer's content
 
