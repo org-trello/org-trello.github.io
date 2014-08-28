@@ -43,7 +43,8 @@ Contributors                                        | Actions
 [@nmassyl](https://twitter.com/nmassyl)             | multiple exchanges on design and functionalities.
 [@puzan](https://github.com/puzan)                  | org-trello's el-get recipe
 [@purcell](https://github.com/purcell)              | various discussions, suggestions regarding packaging on [Melpa](http://melpa.milkbox.net/)
-[@nicferrier](https://github.com/nicferrier)        | [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), etc...
+[@nicferrier](https://github.com/nicferrier)        | [marmalade](http://marmalade-repo.org/), [elnode](https://github.com/nicferrier/elnode), [emacs clean install](http://nic.ferrier.me.uk/blog/2012_07/emacs-packages-for-programmers)...
 [@dtebbs](https://github.com/dtebbs)                | [PR - fix on the card description](https://github.com/org-trello/org-trello/pull/173)
 [@jasom](https://github.com/jasom)                  | [PR - improvments on the trello card's description rendering on trello and org](https://github.com/org-trello/org-trello/pull/175).
+free software world                                 | everything :D
 ... and all the other contributors                  | opened issues and/or pull requests
