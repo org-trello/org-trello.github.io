@@ -17,13 +17,18 @@ When there is trouble, please, open issues on [the github tracker](https://githu
 
 - emacs version
 - org-trello version
-- marmalade or melpa repository installation
+- [melpa](http://melpa.milkbox.net/) or [melpa-stable](http://melpa-stable.milkbox.net/) repository installation
 - your problem with clarity and conciseness
 - an anonymised sample of your org-buffer with problems
+- please, do state the obvious. It may be not that much to us!
+
+If the issue is relative to org-trello's:
+- functionality: an extracted sample of the `*Message*` buffer's content
+- installation: the `*Compile log*` buffer's content
 
 *Note*
-We answer to questions. Sometimes, we need more information though.
-So be prepared to receive questions if we do not fully understand the issue.
+We answer to questions alright. Sometimes, we need more information though.
+So be prepared to receive some if we do not fully understand the issue.
 The more input you provide, the better and faster we shall solve the issue.
 
 ## Mailing list
