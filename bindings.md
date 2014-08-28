@@ -10,7 +10,7 @@ This section will describe the key bindings and their associated commands.
 
 Keybindings        | Interactive commands                                        | Description
 -------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------
-                   | <kbd>M-x org-trello/version</kbd>                           | Display current version
+<kbd>C-c o v</kbd> | <kbd>M-x org-trello/version</kbd>                           | Display current version
 <kbd>C-c o i</kbd> | <kbd>M-x org-trello/install-key-and-token</kbd>             | Install the keys and the access-token
 <kbd>C-c o I</kbd> | <kbd>M-x org-trello/install-board-metadata</kbd>            | Connect buffer to board
 <kbd>C-c o u</kbd> | <kbd>M-x org-trello/update-board-metadata</kbd>             | Update the org buffer with new trello board metadata
@@ -29,7 +29,7 @@ Keybindings        | Interactive commands                                       
 <kbd>C-c o l</kbd> | <kbd>M-x org-trello/show-card-labels</kbd>                  | Show the card's labels
 <kbd>C-c o A</kbd> | <kbd>M-x org-trello/add-card-comments</kbd>                 | Add a comment to the card
 <kbd>C-c o h</kbd> | <kbd>M-x org-trello/help-describing-bindings</kbd>          | This help message
-<kbd>C-c $</kbd>   | <kbd>M-x org-trello/archive-card</kbd>                      | Archive current card at point
+<kbd>C-c $</kbd>   | <kbd>M-x org-trello/archive-card</kbd>                      | Archive current card at point. This is the standard org binding.
                    | <kbd>M-x org-trello/archive-cards</kbd>                     | Archive DONE cards
 
 *Note:*
