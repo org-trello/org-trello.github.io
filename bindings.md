@@ -10,7 +10,7 @@ This section will describe the key bindings and their associated commands.
 
 Keybindings        | Interactive commands                                        | Description
 -------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------
-                   | <kbd>M-x org-trello/version</kbd>                           | Display current version
+<kbd>C-c o v</kbd> | <kbd>M-x org-trello/version</kbd>                           | Display current version
 <kbd>C-c o i</kbd> | <kbd>M-x org-trello/install-key-and-token</kbd>             | Install the keys and the access-token
 <kbd>C-c o I</kbd> | <kbd>M-x org-trello/install-board-metadata</kbd>            | Connect buffer to board
 <kbd>C-c o u</kbd> | <kbd>M-x org-trello/update-board-metadata</kbd>             | Update the org buffer with new trello board metadata
