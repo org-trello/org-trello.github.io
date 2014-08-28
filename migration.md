@@ -4,6 +4,16 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
+## 0.5.5
+
+Default bindings have been updated.
+| Bindings                 | Action                                                                                                                                       |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello/add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
+| <strike>C-c o o</strike> | Removed. To show the cards comments, use <kbd>C-u C-c o C</kbd>                                                                              |
+
+Of course, as usual, if you are not happy with this, simply update [your configuration file](https://org-trello.github.io/bindings.html#bindings-override).
+
 ## 0.5.3
 
 Lots of work has been done to make org-trello:
