@@ -4,9 +4,12 @@ title:  "Contributions"
 date:   2014-03-16 11:01:52
 ---
 
-- Pull Requests are more than welcome ([README-dev.md](https://github.com/org-trello/org-trello/blob/master/README-dev.md))
+## org-trello
+
+- Pull Requests are more than welcome ([help for developers](https://github.com/org-trello/org-trello/blob/master/README-dev.md))
 - Any feedback is welcome too
-- open [github issues](https://github.com/org-trello/org-trello/issues?state=open) for new need or real issues
+- open [org-trello github issues](https://github.com/org-trello/org-trello/issues) for new need or issues
+- open [org-trello.github.io github issues](https://github.com/org-trello/org-trello.github.io/issues) for documentation improvments
 
 ## Issues
 
