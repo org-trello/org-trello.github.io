@@ -77,24 +77,19 @@ For example:
 
 You can also simply change the default prefix key <kbd>C-c o</kbd> and let org-trello do the rest.
 
-For this, you need to install the following hook specifying the <prefix-key>:
+For this, you can customize the variable *ORGTRELLO/MODE-PREFIX-KEYBINDING*:
 
 ``` lisp
 (require 'org-trello)
 
-(add-hook
-   'org-trello-mode-hook
-   (lambda () (org-trello/install-local-prefix-mode-keybinding! <prefix-key>)))
+(custom-set-variables '(*ORGTRELLO/MODE-PREFIX-KEYBINDING* "<prefix-key>"))
 ```
 
 For example, installing using the <kbd>C-c x</kbd> as prefix key:
 
 ``` lisp
 (require 'org-trello)
-
-(add-hook
-   'org-trello-mode-hook
-   (lambda () (org-trello/install-local-prefix-mode-keybinding! "C-c x")))
+(custom-set-variables '(*ORGTRELLO/MODE-PREFIX-KEYBINDING* "C-c x"))
 ```
 
 *Note* If org-trello was already running, you will need to relaunch the mode (<kbd>M-x org-trello-mode</kbd> twice).
