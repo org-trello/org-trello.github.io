@@ -6,13 +6,26 @@ date:   2014-03-16 11:01:52
 
 ## Credentials
 
-Install the consumer-key and the read-write token for org-trello to be able to work in your name with your trello boards.
+Install the **consumer-key** and the read-write **access-token** for org-trello to be able to work in your name with your trello boards.
 
 <kbd>C-c o i</kbd> or <kbd>M-x org-trello/install-key-and-token</kbd>
 
 *Note*
-First, ensure that the web browser that emacs is configured to use is started, and you are logged in to Trello in it.
-This will open your browser to retrieve the needed information, **consumer-key** then the **access-token**, and wait for your input in emacs.
+First, ensure that the web browser that emacs is configured to use is started, and that you are logged in to Trello in it.
+
+This command will:
+
+- open your browser for you to select and copy your **consumer-key** (Developer API Keys / key entry) and paste it inside emacs' minibuffer (hit <kbd>RET</kbd> when done).
+
+<img src="./images/trello-credentials/retrieve-consumer-key.png" />
+
+- open a second tab to ask you to authorize org-trello to work in your name on your account
+
+<img src="./images/trello-credentials/authorize-org-trello.png" />
+
+- If you are not ok with this, hit *Deny*. It's ok, you just will not be able to use org-trello.
+
+- Otherwise, hit *Allow*, this will then present you a form with the read/write **access-token**, select and copy it then paste it inside emacs' minibuffer and hit <kbd>RET</kbd> (enter/C-m).
 
 *Remark:* This only needs to be done once, until you revoke the token.
 
