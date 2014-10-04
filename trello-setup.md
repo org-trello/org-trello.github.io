@@ -16,8 +16,15 @@ First, ensure that the web browser that emacs is configured to use is started, a
 This command will:
 
 - open your browser for you to select and copy your **consumer-key** (Developer API Keys / key entry) and paste it inside emacs' minibuffer (hit <kbd>RET</kbd> when done).
+
+<img src="./images/trello-credentials/retrieve-consumer-key.png" />
+
 - open a second tab to ask you to authorize org-trello to work in your name on your account
+
+<img src="./images/trello-credentials/authorize-org-trello.png" />
+
 - If you are not ok with this, hit *Deny*. It's ok, you just will not be able to use org-trello.
+
 - Otherwise, hit *Allow*, this will then present you a form with the read/write **access-token**, select and copy it then paste it inside emacs' minibuffer and hit <kbd>RET</kbd> (enter/C-m).
 
 *Remark:* This only needs to be done once, until you revoke the token.
