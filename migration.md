@@ -7,6 +7,7 @@ date:   2014-03-16 11:01:52
 ## 0.5.5
 
 Default bindings have been updated.
+
 | Bindings                 | Action                                                                                                                                       |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello/add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
