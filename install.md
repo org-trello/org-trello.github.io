@@ -46,9 +46,18 @@ Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**
 
 ``` lisp
 (require 'org-trello)
-;; to have org-trello activated for each org file, uncomment this
-;; (add-hook 'org-mode-hook 'org-trello-mode)
-;; otherwise, M-x org-trello-mode in an org buffer to activate org-trello
+```
+
+*Note*
+We do not recommend loading org-trello for each org-mode buffer (see https://github.com/org-trello/org-trello/issues/209).
+org-trello's an org minor mode with trello abilities (which unfortunately limits org's power).
+
+To activate org-trello only for specific files, there exists a custom variable dedicated to this:
+
+Use this for example to activate `org-trello` when opening `/path/to/file0` and `/path/to/file1`.
+
+``` lisp
+(custom-set-variables '(org-trello-files '("/path/to/file0" "/path/to/file1")))
 ```
 
 ### Alternative install
