@@ -10,7 +10,7 @@ The comments are now displayed inline in the card.
 So the binding to show the comments have been removed.
 To see comments, simply unfold the card.
 
-# 0.6.6
+## 0.6.6
 
 We can now remove a comment at point (if we are the owner of the comment).
 Use <kbd>M-x org-trello/delete-card-comment</kbd>
