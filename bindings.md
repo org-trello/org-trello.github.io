@@ -25,8 +25,8 @@ Keybindings        | Interactive commands                                       
 <kbd>C-c o k</kbd> | <kbd>M-x org-trello/kill-entity</kbd>                       | Kill the entity (and its arborescence tree) from the trello board and the org buffer.
 <kbd>C-c o K</kbd> | <kbd>M-x org-trello/kill-cards</kbd>                        | Kill all the entities (and their arborescence tree) from the trello board and the org buffer.
 <kbd>C-c o a</kbd> | <kbd>M-x org-trello/assign-me</kbd>                         | Assign oneself to the card. With C-u modifier, unassign oneself from the card.
-<kbd>C-c o C</kbd> | <kbd>M-x org-trello/add-card-comments</kbd>                 | Add a comment to the card. With C-u modifier, display the current card's comments in a pop-up buffer.
-                   | <kbd>M-x org-trello/show-card-comments</kbd>                | Show card comments.
+<kbd>C-c o C</kbd> | <kbd>M-x org-trello/add-card-comments</kbd>                 | Add a comment to the card. With C-u modifier, remove the current card's comment.
+                   | <kbd>M-x org-trello/delete-card-comment</kbd>               | Delete card comment at point.
 <kbd>C-c o l</kbd> | <kbd>M-x org-trello/show-board-labels</kbd>                 | Display the board's labels in a pop-up buffer.
 <kbd>C-c o j</kbd> | <kbd>M-x org-trello/jump-to-trello-card</kbd>               | Jump to card in browser.
 <kbd>C-c o J</kbd> | <kbd>M-x org-trello/jump-to-trello-board</kbd>              | Open the browser to your current trello board.
