@@ -1,3 +1,5 @@
 /.cask/
 /.elpa/
 _site/
+/vendor/
+/.bundle/
