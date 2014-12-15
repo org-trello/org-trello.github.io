@@ -2,7 +2,11 @@ pr:
 	hub pull-request -b org-trello:master
 
 deps:
-	sudo apt-get install -y bundler
+	# sudo apt-get install -y bundler
+	nix-env -i ruby-bundler
+
+setup:
+	bundle install --path vendor/bundle
 
 pull:
 	git fetch --all --prune
@@ -11,6 +15,3 @@ pull:
 
 run-dev:
 	bundle exec jekyll serve --watch
-
-install: deps
-	bundle install
