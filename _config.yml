@@ -1,10 +1,23 @@
+# Site settings
 name: org-trello
 trace: false
 safe: true
-pygments: true
-markdown: redcarpet
+highlighter: pygments
 
 encoding: utf-8
 
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+title: org-trello
+email: eniotna.t@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  org-trello is an emacs minor mode to extend org-mode with trello abilities.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://org-trello.github.io" # the base hostname & protocol for your site
+twitter_username: ardumont
+github_username:  ardumont
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
