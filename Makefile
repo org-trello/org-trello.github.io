@@ -5,8 +5,11 @@ deps:
 	# sudo apt-get install -y bundler
 	nix-env -i ruby-bundler
 
-setup:
-	bundle install --path vendor/bundle
+prepare:
+	mkdir -p ~/.jekyll/ardumont.github.io/vendor
+
+setup: prepare
+	bundle install --path ~/.jekyll/ardumont.github.io/vendor/bundle
 
 pull:
 	git fetch --all --prune
