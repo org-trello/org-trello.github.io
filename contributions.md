@@ -29,14 +29,18 @@ If the issue is relative to org-trello's:
 - installation: provide the `*Compile log*` buffer's content
 
 *Note*
+
 To have a more verbose output in the `*Message*` buffer (`*OT/TRACE*` enabled), you can add this snippet of code in a *scratch* buffer.
+
 ```lisp
 (custom-set-variables '(*orgtrello-log/level* *OT/TRACE*))
 ```
+
 and evaluate this <kbd>M-x eval-buffer</kbd>.
 Now get back to your org-trello buffer and execute again your command with issues.
 
 *Remark*
+
 We answer to issues/questions alright. Sometimes, we need more information though.
 So be prepared to receive some if we do not fully understand.
 Keep in mind that the more input you provide clearly, concisely and completely, the better and faster we will be able to solve it.
