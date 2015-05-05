@@ -187,7 +187,7 @@ You can override this behavior by changing a dedicated variable to **true** to h
 (setq *ORGTRELLO-DO-SHOW-CARD-COMMENTS-AFTER-ADDING* t)
 ```
 
-### Errors
+### Possible errors
 
 org-trello can display the following possible error messages:
 
@@ -233,3 +233,21 @@ org-trello can display the following possible error messages:
 - syncing the item without syncing the checklist first:
 
     > Cannot synchronize the item - the checklist must be synchronized first. Skip it...
+
+### Automatic org-trello files in emacs
+
+Add this inside your personal emacs setup file `~/.emacs.d/init.el`.
+And now when naming a file with a .trello extension, opening it will have automatically org-trello activated on it.
+
+```lisp
+;; org-trello major mode for all .trello files
+(add-to-list 'auto-mode-alist '("\\.trello$" . org-mode))
+
+;; add a hook function to check if this is trello file, then activate the org-trello minor mode.
+(add-hook 'org-mode-hook
+          (lambda ()
+            (let ((filename (buffer-file-name (current-buffer))))
+              (when (and filename (string= "trello" (file-name-extension filename)))
+              (org-trello-mode)))))
+```
+source: https://github.com/org-trello/org-trello/issues/249
