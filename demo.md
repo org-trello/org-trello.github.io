@@ -5,6 +5,11 @@ date:   2014-03-16 11:01:52
 ---
 
 
+Please, note that the org-trello format shown in the videos changed since they were released.
+[An issue is opened about it.](https://github.com/org-trello/org-trello/issues/136)
+In the mean time, [the org-trello format is described here](http://org-trello.github.io/usage.html#format).
+
+
 Some video demo 1                                                                                             | 2
 --------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------
 [<img style="width:85%" src="https://i1.ytimg.com/vi/ILPs74L5LFU/0.jpg" />](http://youtu.be/ILPs74L5LFU) <br /> Synchronize one entity | [<img style="width:85%" src="https://i1.ytimg.com/vi/e3NzllAHbHY/0.jpg" />](http://youtu.be/e3NzllAHbHY) <br /> Install
