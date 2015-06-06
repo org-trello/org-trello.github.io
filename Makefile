@@ -2,8 +2,7 @@ pr:
 	hub pull-request -b org-trello:master
 
 deps:
-	# sudo apt-get install -y bundler
-	nix-env -i ruby-bundler
+	nix-env -i bundler
 
 prepare:
 	mkdir -p ~/.jekyll/ardumont.github.io/vendor
