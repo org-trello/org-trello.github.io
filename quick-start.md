@@ -10,7 +10,7 @@ A typical starting point would be to synchronize the trello board to the current
 
 Hit <kbd>C-u C-c o s</kbd>.
 
-This will trigger the <kbd>C-u M-x org-trello/sync-buffer</kbd> which is in charge of fetching the current board's data and writing it inside the current buffer.
+This will trigger the <kbd>C-u M-x org-trello-sync-buffer</kbd> which is in charge of fetching the current board's data and writing it inside the current buffer.
 
 -
 

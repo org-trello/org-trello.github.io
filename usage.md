@@ -66,19 +66,19 @@ For example, once synced to trello, this looks like:
 
 Steps:
 
-- Card:
+- Card (org-mode heading level 0):
 
   - Place yourself on the **card-identity** and hit the binding <kbd>C-c o c</kbd>, this will sync the card (create) in the **TODO** column in your trello board.
   - You can edit the label and hit <kbd>C-c o c</kbd> again, this time, this will sync the card again (update) in trello
   - Change the status from TODO to any intermediary status, then hit the binding, this will move the card to the list **DOING** (depending on your todo keywords list).
   - Once done, move the status of the card from anything to DONE, hit the binding, this will move the card to the list **DONE**.
 
-- Checklist:
+- Checklist (checkbox with indentation at 2 spaces):
 
   - Place yourself on the checklist **checklist**, hit the binding, this will add **checklist** as a checklist to your card **card-identity**
   - Rename your checklist and hit again the binding to update its label.
 
-- Item:
+- Item (checkbox with indentation at 4 spaces):
 
   - Place yourself on your item and hit the binding, this will add the item to such checklist.
   - Change the label of the item and hit the binding, this will update its label.
@@ -95,9 +95,10 @@ You can sync the entity without its arborescence to trello.
 Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o c</kbd>.
 
 When on:
-- a card, this will only sync the card
-- a checklist, this will only sync the checklist
-- an item, will only sync the item
+
+  - a card, this will only sync the card
+  - a checklist, this will only sync the checklist
+  - an item, will only sync the item
 
 #### Sync entity from trello board
 
@@ -112,9 +113,10 @@ You can sync the full entity and its arborescence.
 Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o C</kbd>.
 
 When on:
-- a card, this will sync the card, then the checklists then any items of each checklist.
-- a checklist, this will sync the checklist then the items.
-- an item, will only sync the item
+
+  - a card, this will sync the card, then the checklists then any items of each checklist.
+  - a checklist, this will sync the checklist then the items.
+  - an item, will only sync the item
 
 #### Sync entity with structure from trello board
 
@@ -167,25 +169,10 @@ Hit <kbd>C-u C-c o j</kbd>.
 
 *Note* This will use your default browser
 
-#### Show comments
-
-When you synchronize from trello, the comments are also retrieved silently.
-Hit <kbd>C-c o o</kbd> to show the comments (<kbd>M-x org-trello/show-card-comments</kdb>).
-
-*Note* This will open a buffer and show the current comments.
-<kbd>C-x 1</kbd> to close the buffer.
-
 #### Add comments
 
 You have the possibility to add comments to.
-Hit <kbd>C-c o A</kbd> to add a comment.
-
-*Note* By default, this will post a new comment on the card and stop.
-You can override this behavior by changing a dedicated variable to **true** to have the comments buffer open after that action.
-
-``` lisp
-(setq *ORGTRELLO-DO-SHOW-CARD-COMMENTS-AFTER-ADDING* t)
-```
+Hit <kbd>C-c o C</kbd> to add a comment.
 
 ### Possible errors
 
@@ -193,14 +180,14 @@ org-trello can display the following possible error messages:
 
 - without setting up the consumer-key and the access-token:
 
-    > - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello/install-board-metadata
+    > - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello-install-board-metadata
 
 - without setting up the org-mode buffer:
 
     > - Setup problem.
     > Either you did not connect your org-mode buffer with a trello board, to correct this:
-    >   * attach to a board through C-c o I or M-x org-trello/install-board-metadata
-    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board-and-install-metadata).
+    >   * attach to a board through C-c o I or M-x org-trello-install-board-metadata
+    >   * or create a board from scratch with C-c o b or M-x org-trello-create-board-and-install-metadata).
     > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
     > For this, connect to trello and rename your board's list according to your org-mode's todo list.
 
@@ -208,8 +195,8 @@ org-trello can display the following possible error messages:
 
     > - Setup problem.
     > Either you did not connect your org-mode buffer with a trello board, to correct this:
-    >   * attach to a board through C-c o I or M-x org-trello/install-board-metadata
-    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board-and-install-metadata).
+    >   * attach to a board through C-c o I or M-x org-trello-install-board-metadata
+    >   * or create a board from scratch with C-c o b or M-x org-trello-create-board-and-install-metadata).
     > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
     > For this, connect to trello and rename your board's list according to your org-mode's todo list.
     > Also, you can specify on your org-mode buffer the todo list you want to work with, for example: #+TODO: TODO DOING | DONE FAIL (hit C-c C-c to refresh the setup)
@@ -236,7 +223,7 @@ org-trello can display the following possible error messages:
 
 ### Automatic org-trello files in emacs
 
-Add this inside your personal emacs setup file `~/.emacs.d/init.el`.
+Add this inside your personal emacs setup file *~/.emacs.d/init.el*.
 And now when naming a file with a .trello extension, opening it will have automatically org-trello activated on it.
 
 ```lisp

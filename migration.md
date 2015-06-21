@@ -4,6 +4,23 @@ title:  "Migration"
 date:   2014-03-16 11:01:52
 ---
 
+## 0.7.0
+
+As of now, org-trello respects elisp conventions regarding the setup file location.
+So the default *~/.trello/* will be moved silently to *~/.emacs.d/.trello/*
+
+Also, now users can use multiple trello accounts.
+So, provided you have multiple accounts, some commands will ask you when they
+need you to choose an account.
+Also, a silent migration will occur to existing buffers.
+For example, if you have a buffer setup-ed with a user *tony*, your existing
+configuration file *~/.trello/config.el* will be moved to
+*~/.emacs.d/.trello/tony.el*
+
+Again, org-trello tries to respect elisp conventions regarding command names.
+So the command names have been renamed from *org-trello/* to *org-trello-*.
+Still, the old command names are available.
+
 ## 0.6.7
 
 The comments are now displayed inline in the card.
@@ -13,7 +30,7 @@ To see comments, simply unfold the card.
 ## 0.6.6
 
 We can now remove a comment at point (if we are the owner of the comment).
-Use <kbd>M-x org-trello/delete-card-comment</kbd>
+Use <kbd>M-x org-trello-delete-card-comment</kbd>
 
 ## 0.5.5
 
@@ -21,7 +38,7 @@ Default bindings have been updated.
 
 | Bindings                 | Action                                                                                                                                       |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello/add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
+| C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello-add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
 | <strike>C-c o o</strike> | Removed. To show the cards comments, use <kbd>C-u C-c o C</kbd>                                                                              |
 
 Of course, as usual, if you are not happy with this, simply update [your configuration file](https://org-trello.github.io/bindings.html#bindings-override).
