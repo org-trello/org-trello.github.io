@@ -2,7 +2,7 @@ pr:
 	hub pull-request -b org-trello:master
 
 deps:
-	nix-env -i bundler
+	nix-env -iA nixpkgs.bundler nixpkgs.ruby_2_1_1
 
 prepare:
 	mkdir -p ~/.jekyll/ardumont.github.io/vendor
