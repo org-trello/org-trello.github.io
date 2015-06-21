@@ -66,19 +66,19 @@ For example, once synced to trello, this looks like:
 
 Steps:
 
-- Card:
+- Card (org-mode heading level 0):
 
   - Place yourself on the **card-identity** and hit the binding <kbd>C-c o c</kbd>, this will sync the card (create) in the **TODO** column in your trello board.
   - You can edit the label and hit <kbd>C-c o c</kbd> again, this time, this will sync the card again (update) in trello
   - Change the status from TODO to any intermediary status, then hit the binding, this will move the card to the list **DOING** (depending on your todo keywords list).
   - Once done, move the status of the card from anything to DONE, hit the binding, this will move the card to the list **DONE**.
 
-- Checklist:
+- Checklist (checkbox with indentation at 2 spaces):
 
   - Place yourself on the checklist **checklist**, hit the binding, this will add **checklist** as a checklist to your card **card-identity**
   - Rename your checklist and hit again the binding to update its label.
 
-- Item:
+- Item (checkbox with indentation at 4 spaces):
 
   - Place yourself on your item and hit the binding, this will add the item to such checklist.
   - Change the label of the item and hit the binding, this will update its label.
@@ -95,9 +95,10 @@ You can sync the entity without its arborescence to trello.
 Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o c</kbd>.
 
 When on:
-- a card, this will only sync the card
-- a checklist, this will only sync the checklist
-- an item, will only sync the item
+
+  - a card, this will only sync the card
+  - a checklist, this will only sync the checklist
+  - an item, will only sync the item
 
 #### Sync entity from trello board
 
@@ -112,9 +113,10 @@ You can sync the full entity and its arborescence.
 Place yourself on the entity (card or checklist or item) and hit <kbd>C-c o C</kbd>.
 
 When on:
-- a card, this will sync the card, then the checklists then any items of each checklist.
-- a checklist, this will sync the checklist then the items.
-- an item, will only sync the item
+
+  - a card, this will sync the card, then the checklists then any items of each checklist.
+  - a checklist, this will sync the checklist then the items.
+  - an item, will only sync the item
 
 #### Sync entity with structure from trello board
 
