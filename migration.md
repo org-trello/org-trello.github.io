@@ -20,7 +20,7 @@ configuration file *~/.trello/config.el* will be moved to
 *~/.emacs.d/.trello/tony.el*
 
 - respect elisp conventions regarding command names.
-The old command names are still available but it's now recommanded to use
+The old command names are still available but it's now recommended to use
 *org-trello-* instead of *org-trello/* (as they are deprecated)
 
 ## 0.6.7
