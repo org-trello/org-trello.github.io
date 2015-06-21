@@ -8,7 +8,7 @@ prepare:
 	mkdir -p ~/.jekyll/ardumont.github.io/vendor
 
 setup: prepare
-	bundle install --path ~/.jekyll/ardumont.github.io/vendor/bundle
+	bundle install --path ~/.jekyll/org-trello.github.io/vendor/bundle
 
 pull:
 	git fetch --all --prune
