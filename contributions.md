@@ -25,15 +25,15 @@ When there is trouble, please, open issues on [the github tracker](https://githu
 
 If the issue is relative to org-trello's:
 
-- functionality: provide an extracted sample of the `*Message*` buffer's content with `*OT/TRACE*` enabled.
-- installation: provide the `*Compile log*` buffer's content
+- functionality: provide an extracted sample of the *\*Message** buffer's content with *orgtrello-log-trace* enabled.
+- installation: provide the *\*Compile log** buffer's content
 
 *Note*
 
-To have a more verbose output in the `*Message*` buffer (`*OT/TRACE*` enabled), you can add this snippet of code in a *scratch* buffer.
+To have a more verbose output in the *\*Message** buffer, you can add this snippet of code in a *\*scratch** buffer.
 
 ```lisp
-(custom-set-variables '(*orgtrello-log/level* *OT/TRACE*))
+(custom-set-variables '(orgtrello-log-level orgtrello-log-trace))
 ```
 
 and evaluate this <kbd>M-x eval-buffer</kbd>.

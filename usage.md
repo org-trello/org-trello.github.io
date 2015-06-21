@@ -223,7 +223,7 @@ org-trello can display the following possible error messages:
 
 ### Automatic org-trello files in emacs
 
-Add this inside your personal emacs setup file `~/.emacs.d/init.el`.
+Add this inside your personal emacs setup file *~/.emacs.d/init.el*.
 And now when naming a file with a .trello extension, opening it will have automatically org-trello activated on it.
 
 ```lisp
