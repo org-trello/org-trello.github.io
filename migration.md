@@ -6,12 +6,10 @@ date:   2014-03-16 11:01:52
 
 ## 0.7.0
 
-org-trello now:
-
-- respect elisp conventions regarding the setup file location.
+As of now, org-trello respects elisp conventions regarding the setup file location.
 So the default *~/.trello/* will be moved silently to *~/.emacs.d/.trello/*
 
-- can use multiple trello accounts.
+Also, now users can use multiple trello accounts.
 So, provided you have multiple accounts, some commands will ask you when they
 need you to choose an account.
 Also, a silent migration will occur to existing buffers.
@@ -19,9 +17,9 @@ For example, if you have a buffer setup-ed with a user *tony*, your existing
 configuration file *~/.trello/config.el* will be moved to
 *~/.emacs.d/.trello/tony.el*
 
-- respect elisp conventions regarding command names.
-The old command names are still available but it's now recommended to use
-*org-trello-* instead of *org-trello/* (as they are deprecated)
+Again, org-trello tries to respect elisp conventions regarding command names.
+So the command names have been renamed from *org-trello/* to *org-trello-*.
+Still, the old command names are available.
 
 ## 0.6.7
 

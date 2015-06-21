@@ -11,14 +11,12 @@ for org-trello to be able to work in your name with your trello boards.
 
 <kbd>C-c o i</kbd> or <kbd>M-x org-trello-install-key-and-token</kbd>
 
-*Note*
-First, ensure that the web browser that emacs is configured to use is started,
-and that you are logged in to Trello in it.
+First, ensure that the web browser emacs is configured to use is started and
+that you are logged in Trello.
 
 This command will:
 
-- ask for an account name (no verification is made about it). User can simply
-input the login account.
+- ask for an account name (no verification is made about it).
 
 - open your browser for you to select and copy your *org-trello-consumer-key*
 (Developer API Keys / key entry) and paste it inside emacs' minibuffer
@@ -36,7 +34,7 @@ It's ok, you just will not be able to use org-trello.
 
 - Otherwise, hit *Allow*, this will then present you a form with the read/write
 *org-trello-access-token*, select and copy it then paste it inside emacs'
-minibuffer and hit <kbd>RET</kbd> (enter/C-m).
+minibuffer and hit <kbd>RET</kbd>.
 
 *Remark:* This only needs to be done once, until you revoke the token.
 
