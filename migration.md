@@ -13,7 +13,7 @@ To see comments, simply unfold the card.
 ## 0.6.6
 
 We can now remove a comment at point (if we are the owner of the comment).
-Use <kbd>M-x org-trello/delete-card-comment</kbd>
+Use <kbd>M-x org-trello-delete-card-comment</kbd>
 
 ## 0.5.5
 
@@ -21,7 +21,7 @@ Default bindings have been updated.
 
 | Bindings                 | Action                                                                                                                                       |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello/add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
+| C-c o C                  | Add comments to the cards at point. To show the cards comments, use <kbd>C-u M-x org-trello-add-card-comments</kbd> (<kbd>C-u C-c o C</kbd>) |
 | <strike>C-c o o</strike> | Removed. To show the cards comments, use <kbd>C-u C-c o C</kbd>                                                                              |
 
 Of course, as usual, if you are not happy with this, simply update [your configuration file](https://org-trello.github.io/bindings.html#bindings-override).

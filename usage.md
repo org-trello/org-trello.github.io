@@ -170,7 +170,7 @@ Hit <kbd>C-u C-c o j</kbd>.
 #### Show comments
 
 When you synchronize from trello, the comments are also retrieved silently.
-Hit <kbd>C-c o o</kbd> to show the comments (<kbd>M-x org-trello/show-card-comments</kdb>).
+Hit <kbd>C-c o o</kbd> to show the comments (<kbd>M-x org-trello-show-card-comments</kdb>).
 
 *Note* This will open a buffer and show the current comments.
 <kbd>C-x 1</kbd> to close the buffer.
@@ -193,14 +193,14 @@ org-trello can display the following possible error messages:
 
 - without setting up the consumer-key and the access-token:
 
-    > - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello/install-board-metadata
+    > - Setup problem - You need to install the consumer-key and the read/write access-token - C-c o i or M-x org-trello-install-board-metadata
 
 - without setting up the org-mode buffer:
 
     > - Setup problem.
     > Either you did not connect your org-mode buffer with a trello board, to correct this:
-    >   * attach to a board through C-c o I or M-x org-trello/install-board-metadata
-    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board-and-install-metadata).
+    >   * attach to a board through C-c o I or M-x org-trello-install-board-metadata
+    >   * or create a board from scratch with C-c o b or M-x org-trello-create-board-and-install-metadata).
     > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
     > For this, connect to trello and rename your board's list according to your org-mode's todo list.
 
@@ -208,8 +208,8 @@ org-trello can display the following possible error messages:
 
     > - Setup problem.
     > Either you did not connect your org-mode buffer with a trello board, to correct this:
-    >   * attach to a board through C-c o I or M-x org-trello/install-board-metadata
-    >   * or create a board from scratch with C-c o b or M-x org-trello/create-board-and-install-metadata).
+    >   * attach to a board through C-c o I or M-x org-trello-install-board-metadata
+    >   * or create a board from scratch with C-c o b or M-x org-trello-create-board-and-install-metadata).
     > Either your org-mode's todo keyword list and your trello board lists are not named the same way (which they must).
     > For this, connect to trello and rename your board's list according to your org-mode's todo list.
     > Also, you can specify on your org-mode buffer the todo list you want to work with, for example: #+TODO: TODO DOING | DONE FAIL (hit C-c C-c to refresh the setup)
