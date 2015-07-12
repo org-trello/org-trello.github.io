@@ -13,22 +13,48 @@ date:   2014-03-16 11:01:52
 
 ## Issues
 
-When there is trouble, please, open issues on [the github tracker](https://github.com/org-trello/org-trello/issues?state=open) describing:
+### Report
 
-- emacs version
-- org-trello version
-- [melpa](http://melpa.milkbox.net/) or [melpa-stable](http://melpa-stable.milkbox.net/) repository installation
-- your problem with clarity and conciseness
-- an anonymised sample of your org-buffer with problems
-- do state the obvious
+When there is trouble, please, open issues on
+[the github tracker](https://github.com/org-trello/org-trello/issues?state=open).
+
+### Automatic (recommended)
+
+Use <kbd>M-x org-trello-bug-report</kbd> (<kbd>C-c o B</kbd>).
+This will bootstrap the start of a bug report with the needed information.
+You then need to paste this inside the issue newly created.
+
+With <kbd>C-u</kbd> modifier, this will do the same but also open an issue in
+org-trello's github tracker.
+
+In any case, please:
+
+- do state the obvious (it may not be for us)
 - use github's [excellent markdown format](https://help.github.com/articles/github-flavored-markdown#syntax-highlighting) to ease readings
 
 If the issue is relative to org-trello's:
 
 - functionality: provide an extracted sample of the *\*Message** buffer's content with *orgtrello-log-trace* enabled.
-- installation: provide the *\*Compile log** buffer's content
+- installation: provide emacs' *\*Compile log** buffer content
 
-*Note*
+*Remark*
+
+We answer to issues/questions alright.
+Sometimes, we need more information though.
+So be prepared to receive some questions if we do not fully understand.
+Keep in mind that the more input you provide clearly, concisely and completely, the better and faster we will be able to solve the problem.
+
+### Manual
+
+Or, if the automatic way fails, please, describe the following:
+
+- emacs version
+- org-trello version
+- the installation choice [melpa](http://melpa.milkbox.net/),
+[melpa-stable](http://melpa-stable.milkbox.net/), [marmalade](https://marmalade-repo.org/), [el-get](https://github.com/dimitri/el-get), tarball, git clone, etc...
+- your problem with clarity and conciseness
+
+### log verbosity
 
 To have a more verbose output in the *\*Message** buffer, you can add this snippet of code in a *\*scratch** buffer.
 
@@ -39,11 +65,10 @@ To have a more verbose output in the *\*Message** buffer, you can add this snipp
 and evaluate this <kbd>M-x eval-buffer</kbd>.
 Now get back to your org-trello buffer and execute again your command with issues.
 
-*Remark*
+### scramble data
 
-We answer to issues/questions alright. Sometimes, we need more information though.
-So be prepared to receive some if we do not fully understand.
-Keep in mind that the more input you provide clearly, concisely and completely, the better and faster we will be able to solve it.
+You can scramble the ids in your extracted buffer sample.
+We do not care about your data, we want to be able to reproduce the issue.
 
 ## Mailing list
 
