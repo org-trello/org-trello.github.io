@@ -44,7 +44,7 @@ You can, as usual [override those proposed default bindings](http://ergoemacs.or
 
 For example:
 
-``` lisp
+```lisp
 (require 'org-trello)
 
 (add-hook 'org-trello-mode-hook
@@ -79,7 +79,7 @@ You can also simply change the default prefix key <kbd>C-c o</kbd> and let org-t
 
 For this, you can customize the variable *ORGTRELLO/MODE-PREFIX-KEYBINDING*:
 
-``` lisp
+```lisp
 (require 'org-trello)
 
 (custom-set-variables '(*ORGTRELLO/MODE-PREFIX-KEYBINDING* "<prefix-key>"))
@@ -87,7 +87,7 @@ For this, you can customize the variable *ORGTRELLO/MODE-PREFIX-KEYBINDING*:
 
 For example, installing using the <kbd>C-c x</kbd> as prefix key:
 
-``` lisp
+```lisp
 (require 'org-trello)
 (custom-set-variables '(*ORGTRELLO/MODE-PREFIX-KEYBINDING* "C-c x"))
 ```

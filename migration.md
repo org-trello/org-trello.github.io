@@ -121,7 +121,7 @@ For this, we use elnode as a proxy server to make requests to trello.
 The elnode server is started on the port 9876.
 You can always change this port
 
-``` lisp
+```lisp
 (setq *ORGTRELLO-PROXY-PORT* 9876)
 ```
 Then <kbd>M-x orgtrello-proxy/reload</kbd>
