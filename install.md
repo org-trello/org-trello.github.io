@@ -16,9 +16,9 @@ org-trello's [Marmalade package](http://marmalade-repo.org/packages/org-trello) 
 
 ### Melpa
 
-``` lisp
+```lisp
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages") t)
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 ```
 
@@ -26,9 +26,9 @@ Then hit <kbd>M-x eval-buffer</kbd> to evaluate the buffer's contents.
 
 ### Melpa-stable
 
-``` lisp
+```lisp
 (require 'package)
-(add-to-list 'package-archives '("melpa-stable" . "http://melpa-stable.milkbox.net/packages") t)
+(add-to-list 'package-archives '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
 (package-initialize)
 ```
 
@@ -44,7 +44,7 @@ Use standard emacs installation:
 
 Add this in your emacs configuration file **~/.emacs** or **~/.emacs.d/init.el**.
 
-``` lisp
+```lisp
 (require 'org-trello)
 ```
 
@@ -56,7 +56,7 @@ To activate org-trello only for specific files, there exists a custom variable d
 
 Use this for example to activate `org-trello` when opening `/path/to/file0` and `/path/to/file1`.
 
-``` lisp
+```lisp
 (custom-set-variables '(org-trello-files '("/path/to/file0" "/path/to/file1")))
 ```
 
