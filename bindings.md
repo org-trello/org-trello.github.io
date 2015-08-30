@@ -94,4 +94,4 @@ For example, installing using the <kbd>C-c x</kbd> as prefix key:
 
 *Note* If org-trello was already running, you will need to relaunch the mode (<kbd>M-x org-trello-mode</kbd> twice).
 
-For example, here is my [startup file](https://github.com/ardumont/orgmode-pack/blob/master/init.el#L3).
+For example, here is my [startup file](https://github.com/ardumont/orgmode-pack/blob/master/orgmode-pack.el#L57).
