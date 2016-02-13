@@ -17,7 +17,7 @@ that you are logged in Trello.
 This command will:
 
 - ask for an account name which must be your trello login.  Check
-https://trello.com/<user-login>. <user-login> is the trello
+https://trello.com/**your-user-login** where **your-user-login** is the
 login you must use.
 
 - open your browser for you to select and copy your *org-trello-consumer-key*
@@ -38,9 +38,9 @@ It's ok, you just won't be able to use org-trello.
 *org-trello-access-token*, select and copy it then paste it inside emacs'
 minibuffer and hit <kbd>RET</kbd>.
 
-*Note:* This commands, if accepted, results in a file stored only in
+*Note:* This command, if accepted, results in a file stored *only* in
 your disk in <kbd>~/.emacs.d/.trello/<user-login>.el</kbd> (this path
-may vary depending on `user-emacs-directory`).
+may vary depending on **user-emacs-directory**).
 
 This file contains your credentials and will be used to identify you
 when requesting trello.
