@@ -16,7 +16,9 @@ that you are logged in Trello.
 
 This command will:
 
-- ask for an account name (no verification is made about it).
+- ask for an account name which must be your trello login.  Check
+https://trello.com/<user-login>. <user-login> is the trello
+login you must use.
 
 - open your browser for you to select and copy your *org-trello-consumer-key*
 (Developer API Keys / key entry) and paste it inside emacs' minibuffer
@@ -30,13 +32,26 @@ on your account
 <img src="./images/trello-credentials/authorize-org-trello.png" />
 
 - If you are not ok with this, hit *Deny*.
-It's ok, you just will not be able to use org-trello.
+It's ok, you just won't be able to use org-trello.
 
 - Otherwise, hit *Allow*, this will then present you a form with the read/write
 *org-trello-access-token*, select and copy it then paste it inside emacs'
 minibuffer and hit <kbd>RET</kbd>.
 
-*Remark:* This only needs to be done once, until you revoke the token.
+*Note:* This commands, if accepted, results in a file stored only in
+your disk in <kbd>~/.emacs.d/.trello/<user-login>.el</kbd> (this path
+may vary depending on `user-emacs-directory`).
+
+This file contains your credentials and will be used to identify you
+when requesting trello.
+
+``` emacs-lisp
+(setq org-trello-consumer-key "abc...")  ;; 32 characters string
+(setq org-trello-access-token "def...")  ;; 64 characters string
+```
+
+*Remark:*
+This routine needs to be done once, until you revoke the token.
 
 ## Connect org-mode buffer to board
 
