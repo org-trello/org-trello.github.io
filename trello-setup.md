@@ -6,8 +6,8 @@ date:   2014-03-16 11:01:52
 
 ## Credentials
 
-Install the *org-trello-consumer-key* and the read-write *org-trello-access-token*
-for org-trello to be able to work in your name with your trello boards.
+Install the *org-trello-consumer-key* and the read-write
+*org-trello-access-token* to permit org-trello to access your trello boards.
 
 <kbd>C-c o i</kbd> or <kbd>M-x org-trello-install-key-and-token</kbd>
 
