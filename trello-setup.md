@@ -6,13 +6,13 @@ date:   2014-03-16 11:01:52
 
 ## Credentials
 
-Install the *org-trello-consumer-key* and the read-write *org-trello-access-token*
-for org-trello to be able to work in your name with your trello boards.
+Install the *org-trello-consumer-key* and the read-write
+*org-trello-access-token* to permit org-trello to access your trello boards.
 
 <kbd>C-c o i</kbd> or <kbd>M-x org-trello-install-key-and-token</kbd>
 
-First, ensure that the web browser emacs is configured to use is started and
-that you are logged in Trello.
+First, ensure that the web browser emacs is configured to use is
+started and that you are logged in Trello.
 
 This command will:
 
@@ -20,23 +20,23 @@ This command will:
 https://trello.com/**your-user-login** where **your-user-login** is the
 login you must use.
 
-- open your browser for you to select and copy your *org-trello-consumer-key*
-(Developer API Keys / key entry) and paste it inside emacs' minibuffer
-(hit <kbd>RET</kbd> when done).
+- open your browser for you to select and copy your
+*org-trello-consumer-key* (Developer API Keys / key entry) and paste
+it inside emacs' minibuffer (hit <kbd>RET</kbd> when done).
 
 <img src="./images/trello-credentials/retrieve-consumer-key.png" />
 
-- open a second tab to ask you to authorize org-trello to work in your name
-on your account
+- open a second tab to ask you to authorize org-trello to work in your
+name on your account
 
 <img src="./images/trello-credentials/authorize-org-trello.png" />
 
-- If you are not ok with this, hit *Deny*.
-It's ok, you just won't be able to use org-trello.
+- If you are not ok with this, hit *Deny*.  It's ok, you just won't be
+able to use org-trello.
 
-- Otherwise, hit *Allow*, this will then present you a form with the read/write
-*org-trello-access-token*, select and copy it then paste it inside emacs'
-minibuffer and hit <kbd>RET</kbd>.
+- Otherwise, hit *Allow*, this will then present you a form with the
+read/write *org-trello-access-token*, select and copy it then paste it
+inside emacs' minibuffer and hit <kbd>RET</kbd>.
 
 *Note:* This command, if accepted, results in a file stored *only* in
 your disk in <kbd>~/.emacs.d/.trello/<user-login>.el</kbd> (this path
@@ -55,8 +55,8 @@ This routine needs to be done once, until you revoke the token.
 
 ## Connect org-mode buffer to board
 
-For each org-mode file, you need to connect your org-mode file with a trello
-board.
+For each org-mode file, you need to connect your org-mode file with a
+trello board.
 
 <kbd>C-c o I</kbd> or <kbd>M-x org-trello-install-board-metadata</kbd>
 
@@ -65,8 +65,8 @@ This will:
 - ask you for the accounts you want to use (if you have multiple ones,
 otherwise, select the only one and pass to the next step silently)
 
-- present you with a list of boards for the selected account.
-Select the one you want and hit enter.
+- present you with a list of boards for the selected account.  Select
+the one you want and hit enter.
 
 - edit your org-mode file to add the properties needed.
 
