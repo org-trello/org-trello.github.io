@@ -2,7 +2,7 @@ pr:
 	hub pull-request -b org-trello:master
 
 deps:
-	nix-env -iA nixpkgs.bundler nixpkgs.ruby_2_1_1
+	@echo 'Please run `sudo apt-get install bundler nodejs` or equivalent'
 
 prepare:
 	mkdir -p ~/.jekyll/org-trello.github.io/vendor
