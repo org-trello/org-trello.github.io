@@ -58,7 +58,7 @@ For example, once synced to trello, this looks like:
   - [X] Ocaml :PROPERTIES: {"orgtrello-id":"521dc9fb7ef4310554003ab3"}
 - [X] Hybrid :PROPERTIES: {"orgtrello-id":"521dc9f6238d072770007217"}
   - [X] Scala :PROPERTIES: {"orgtrello-id":"521dc9fc8e95d74636004109"}
-  ```
+```
 
 *Note* In org-trello buffer, the :PROPERTIES: for the checklists/items won't be visible for the user.
 
