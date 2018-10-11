@@ -1,8 +1,23 @@
 ---
 layout: post
 title:  "Migration"
-date:   2014-03-16 11:01:52
+date:   2017-11-02 13:29:56
+
 ---
+
+## 0.8.1
+
+The org-trello key properties used in the buffer were clashing with
+higher org-mode functionality (lookup,
+cf. https://github.com/org-trello/org-trello/issues/366).
+
+Those properties were renamed with clash free names (`-` separator
+symbol was replaced with `_`).
+
+To help the migration, a routine has been integrated.  This should not
+be needed by the user though (the migration is integrated to the
+actions).  Still, if the user wants it, (s)he can do it through
+<kbd>M-x org-trello-migrate-buffer</kbd>.
 
 ## 0.7.0
 
