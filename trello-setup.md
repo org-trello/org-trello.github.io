@@ -16,9 +16,10 @@ started and that you are logged in Trello.
 
 This command will:
 
-- ask for an account name which must be your trello login.  Check
-https://trello.com/**your-user-login** where **your-user-login** is the
-login you must use.
+- ask for an account name which must be your trello login. Check
+https://trello.com/**your-user-login-and-not-your-email** where
+**your-user-login-and-not-your-email** is your user login and not the email you
+used to subscribe to trello, [otherwise, you will have sync issues](https://github.com/org-trello/org-trello/issues?q=is%3Aissue+is%3Aopen+label%3Asetup-problem).
 
 - open your browser for you to select and copy your
 *org-trello-consumer-key* (Developer API Keys / key entry) and paste
