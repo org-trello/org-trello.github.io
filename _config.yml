@@ -2,7 +2,7 @@
 name: org-trello
 trace: false
 safe: true
-highlighter: pygments
+highlighter: rouge
 
 encoding: utf-8
 
