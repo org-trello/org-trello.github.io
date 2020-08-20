@@ -1,0 +1,40 @@
+header {
+  padding: 1rem;
+  background: #333;
+
+  .logo {
+    vertical-align: top;
+    max-width: 3rem;
+    margin-right: 1rem;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  .links {
+    li {
+      display: inline-block;
+      margin: 0.5rem;
+
+      a {
+        padding: 0.5rem;
+        border-bottom: 2px solid #777;
+
+        &:hover {
+          border-color: $org-trello-accent;
+        }
+
+        &:focus {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  #version {
+    font-style: italic;
+    color: #AAA;
+    font-size: 1.5rem;
+  }
+}
