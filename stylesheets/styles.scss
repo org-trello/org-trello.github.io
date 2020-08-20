@@ -1,21 +1,5 @@
 ---
 ---
 
-@import 'elements.scss';
-
-.nav {
-  li {
-    a {
-      border-bottom: 2px solid transparent;
-    }
-
-    &.active a {
-      color: $org-trello-accent;
-      font-weight: bold;
-    }
-  }
-}
-
-pre {
-  padding: 1rem;
-}
+@import 'elements';
+@import 'nav';
