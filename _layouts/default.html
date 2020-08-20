@@ -20,15 +20,17 @@
   </head>
   <body>
     {% include header.html %}
-    <div class="container menu">
-      <div class="row">
-        {% include nav.html %}
+    <main>
+      <div class="container menu">
+        <div class="row">
+          {% include nav.html %}
 
-        <div class="site col-lg-8 col-sm-8">
-          {{ content }}
+          <div class="site col-lg-8 col-sm-8">
+            {{ content }}
+          </div>
         </div>
       </div>
-    </div>
+    </main>
     {% include footer.html %}
   </body>
 </html>
