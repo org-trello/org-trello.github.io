@@ -51,38 +51,22 @@
     <!-- menu -->
     <div class="container-fluid menu">
       <div class="row-fluid">
-        <div class="col-lg-2 sidebar-wrapper">
-          <ul class="nav nav-pills nav-stacked">
-            <li><a style="text-align:left" href="/">About</a></li>
-            <li><a style="text-align:left" href="/demo.html">Demo</a></li>
-            <li><a style="text-align:left" href="/install.html">Standard Install</a></li>
-            <li><a style="text-align:left" href="/trello-setup.html">Org-trello Setup</a></li>
-            <li><a style="text-align:left" href="/quick-start.html">Quick start</a></li>
-            <li><a style="text-align:left" href="/migration.html">Migration</a></li>
-            <li><a style="text-align:left" href="/bindings.html">Bindings</a></li>
-            <li><a style="text-align:left" href="/usage.html">Usage</a></li>
-            <li><a style="text-align:left" href="/faq.html">FAQ</a></li>
-            <li><a style="text-align:left" href="/customize.html">Customize</a></li>
-            <li><a style="text-align:left" href="/downloads.html">Downloads</a></li>
-            <li><a style="text-align:left" href="/contributions.html">Contributions</a></li>
-            <li><a style="text-align:left" href="/license.html">License</a></li>
-          </ul>
-        </div>
-      </div>
+        {% include nav.html %}
 
-      <div class="site">
-        <div class="toc"></div><br />
+        <div class="site">
+          <div class="toc"></div><br />
 
-        {{ content }}
+          {{ content }}
 
-        <div class="footer">
-          <div class="contact">
-            {:github <a href="https://github.com/ardumont">@ardumont</a><br />
-            &nbsp;:twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
-          </div>
-          <span style="text-align:center">last modification date: Thu Nov  2 13:39:46 GMT 2017</span>
-          <div style="float:right">
-            <a href="#">back to top</a>
+          <div class="footer">
+            <div class="contact">
+              {:github <a href="https://github.com/ardumont">@ardumont</a><br />
+              &nbsp;:twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
+            </div>
+            <span style="text-align:center">last modification date: Thu Nov  2 13:39:46 GMT 2017</span>
+            <div style="float:right">
+              <a href="#">back to top</a>
+            </div>
           </div>
         </div>
       </div>

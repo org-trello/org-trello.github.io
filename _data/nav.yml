@@ -1,0 +1,26 @@
+- title: About
+  link: /
+- title: Demo
+  link: /demo.html
+- title: Standard Install
+  link: /install.html
+- title: Org-trello Setup
+  link: /trello-setup.html
+- title: Quick start
+  link: /quick-start.html
+- title: Migration
+  link: /migration.html
+- title: Bindings
+  link: /bindings.html
+- title: Usage
+  link: /usage.html
+- title: FAQ
+  link: /faq.html
+- title: Customize
+  link: /customize.html
+- title: Downloads
+  link: /downloads.html
+- title: Contributions
+  link: /contributions.html
+- title: License
+  link: /license.html

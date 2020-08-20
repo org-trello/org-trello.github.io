@@ -1,0 +1,9 @@
+<div class="col-lg-2 col-sm-4 sidebar-wrapper">
+  <ul class="nav nav-pills nav-stacked">
+    {% for item in site.data.nav %}
+    <li {% if page.url == item.link %}class="active"{% endif %}>
+      <a href="{{ item.link }}">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+    <ul/>
+</div>
