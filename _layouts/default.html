@@ -11,7 +11,6 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="/javascripts/toc.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" media="screen" />
@@ -26,34 +25,20 @@
         {% include nav.html %}
 
         <div class="site col-lg-8 col-sm-8">
-          <div class="toc"></div><br />
-
           {{ content }}
+        </div>
 
-          <div class="footer">
-            <div class="contact">
-              {:github <a href="https://github.com/ardumont">@ardumont</a><br />
-              &nbsp;:twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
-            </div>
-            <span style="text-align:center">last modification date: Thu Nov  2 13:39:46 GMT 2017</span>
-            <div style="float:right">
-              <a href="#">back to top</a>
-            </div>
+        <div class="footer">
+          <div class="contact">
+            {:github <a href="https://github.com/ardumont">@ardumont</a><br />
+            &nbsp;:twitter <a href="https://twitter.com/ardumont">@ardumont</a>}
+          </div>
+          <span style="text-align:center">last modification date: Thu Nov  2 13:39:46 GMT 2017</span>
+          <div style="float:right">
+            <a href="#">back to top</a>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- doc generation -->
-    <script type="text/javascript">
-      // when the document is ready, render the toc
-      $(document).ready(function() {
-        $('.toc').toc();
-       /* setup to no slide effect */
-       $('.toc').toc({ showSpeed: 0 });
-       /* unordered list */
-       $('.toc').toc({ listType: 'ul' });
-     });
-    </script>
   </body>
 </html>
