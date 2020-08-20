@@ -1,39 +1,7 @@
 ---
 ---
 
-body {
-  background: #444;
-  color: #CCC;
-}
-
-$org-trello-accent: #b5e853;
-
-h1, h2, h3 {
-  color: $org-trello-accent;
-}
-
-h2 {
-  padding: 1rem 0;
-}
-
-h3 {
-  padding: 0.5rem 0;
-}
-
-h2 {
-  font-weight: bold;
-}
-
-a {
-  color: white;
-
-  &:hover {
-    color: white;
-    text-decoration: none;
-    color: $org-trello-accent;
-    border-bottom:  2px solid $org-trello-accent;
-  }
-}
+@import 'elements.scss';
 
 .nav {
   li {
