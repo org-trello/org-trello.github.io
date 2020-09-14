@@ -21,9 +21,9 @@ h2 {
 
 a {
   color: white;
+  border-bottom: 2px solid #777;
 
   &:hover {
-    color: white;
     text-decoration: none;
     color: $org-trello-accent;
     border-bottom:  2px solid $org-trello-accent;
