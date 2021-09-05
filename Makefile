@@ -1,3 +1,6 @@
+activate:
+	nix develop
+
 pr:
 	hub pull-request -b org-trello:master
 
